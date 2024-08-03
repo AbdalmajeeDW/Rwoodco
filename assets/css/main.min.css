@@ -179,6 +179,40 @@ a {
             user-select: none;
   }
 }
+@media (max-width: 480px) {
+  .header .container_lang .lang {
+    font-size: 14px;
+  }
+  .nav {
+    height: 100vh;
+    width: 175px;
+    transition: 2s;
+    box-shadow: 1px 1px 6px -3px rgb(163, 14, 34);
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    position: fixed;
+    left: 0;
+  }
+  .nav .links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 75px;
+  }
+  .nav .links li {
+    list-style: none;
+    z-index: 50;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+  .nav .links li a {
+    font-size: 14px;
+  }
+}
 .container .head_section {
   border-bottom: 2px solid rgb(163, 14, 34);
   border-top: 2px solid rgb(163, 14, 34);
