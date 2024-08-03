@@ -1,0 +1,59 @@
+$base-color: #c6538c;
+$primary-color: rgb(163, 14, 34);
+$padding: 15px;
+$margin: 15px;
+.container{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 4rem;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'first';
+    src: url('/public/fonts/ReadexPro-SemiBold.ttf') ;
+  
+}
+body{
+    direction: rtl !important;
+    font-family: 'first' ;
+}
+.router-link-exact-active{
+    color: $primary-color;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-wrap: nowrap;
+}
+.router-link-active {
+    color: $primary-color;
+  }
+  .v-btn--variant-elevated{
+    color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(2px);
+    .v-btn--variant-elevated:hover{
+        color: red;
+    }
+  }
+  .v-icon{
+    color: $primary-color;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: auto;
+        margin-right:auto ;
+        margin-top: 4rem;
+    }
+  }
+
