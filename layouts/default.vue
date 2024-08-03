@@ -27,16 +27,21 @@
         cover
       ></v-carousel-item>
     </v-carousel>
-    <!-- <v-carousel :show-arrows="false">
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-      cover
-    ></v-carousel-item>
-  </v-carousel> -->
+   
     <div>
     <slot />
     </div>
   </div>
 </template>
+<script setup lang="ts">
+const title = ref('Rwoodco')
+const description = ref('My App Description')
+
+useHead({
+  title,
+  meta: [{
+    name: 'description',
+    content: description
+  }]
+})
+</script>
