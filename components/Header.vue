@@ -12,7 +12,7 @@
         <li><NuxtLink to="/projects">مشاريعنا</NuxtLink></li>
         <li><NuxtLink to="/services">خدماتنا</NuxtLink></li>
         <li><NuxtLink to="/contact">اتصل بنا</NuxtLink></li>
-        <li><NuxtLink to="/profile">البروفايل</NuxtLink></li>
+        <li><NuxtLink to="/RWOODCO_PROFILE.pdf" external target="_blank">البروفايل</NuxtLink></li>
       </ul>
       <div class="container_lang">
         <div class="lang" @click="openModalLang">
