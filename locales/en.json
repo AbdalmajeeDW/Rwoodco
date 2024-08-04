@@ -1,0 +1,35 @@
+{
+  "links": {
+    "home":"Home",
+    "about":"About Us",
+    "profile":"Profile",
+    "projects":"Projects",
+          "services":"Services",
+          "contact":"Contact Us"
+  },
+  "aboutCompany":{
+    "header":"Information about our company",
+    "contain":"Our beginning in 2019 as Redwood Contracting Est"
+  },
+  "creat":{
+    "header":"Our beginning",
+    "contain":"This organization is a family of global people who work hard to become a world-class construction company by exploring new markets and partnerships. The organization aims to become a company in 2023 with the same passion but with greater goals and ambitions. We are committed to our responsibilities and our partners and aspire to build a better future. The company has practiced its brand for a short period of time thanks to the trust and satisfaction of its customers due to the efficiency and presence of its staff resulting from specialization and experience in addition to commitment and integrity in work."
+  },
+  "vision":{
+    "header":"Our vision",
+    "contain":"We look forward to expanding future, advanced businesses that are in line with the vision of the Kingdom of Saudi Arabia (2023), which seeks to apply technology and environmentally friendly alternative energy and implement smart ideas with the participation of successful companies in order to bring our company to a global level in providing services of the highest quality and professionalism."
+},
+"target":{
+  "header":"Our targets",
+  "contain1":"Implementing projects with the highest levels of quality, safety, efficiency and creativity.",
+  "contain2":"Achieving customer satisfaction and meeting their needs.",
+  "contain3":"Achieving sustainable growth and expansion in local and international markets.",
+  "contain4":"Recruiting competencies and developing the skills of the company’s employees",
+  "contain5":"Commitment to social and environmental responsibility"
+}
+,
+"message":{
+  "header":"Our message",
+  "contain":"Our mission at the Red Wood Contracting Company lies in spreading the culture of quality in its true sense in the field of general contracting in the Kingdom of Saudi Arabia, in order to create real competition between all companies and institutions that provide general contracting services, whether they are large or emerging companies, and this message that we adopt is In order to provide the best services at the most reasonable cost."
+}
+}

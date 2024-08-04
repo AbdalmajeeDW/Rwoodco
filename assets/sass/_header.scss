@@ -8,8 +8,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     .logo {
         margin-right: 3rem;
+        margin-left: 16px;        
         img {
             margin-top: 15px;
             width: 70px;
@@ -30,6 +32,8 @@
         .lang {
             user-select: none;
             margin-left: 3rem;
+            margin-right: 3rem;
+
             width: 60px;
             height: 30px;
             border: 1px solid $primary-color;
@@ -81,14 +85,10 @@
         .links {
             display: none;
         }
-        .container_lang {
-            .lang {
-                margin-left: 0px;
-            }
-        }
+       
         .icon_drawer {
             display: flex;
-            margin-left: 1rem;
+            // margin-left: 1rem;
             cursor: pointer;
             transition: 1s ease-in;
         }
@@ -102,7 +102,7 @@
         background-color: rgba(255, 255, 255, 0.4);
         backdrop-filter: blur(2px);
         position: fixed;
-        left: 0;
+        right: 0;
         .links {
             display: flex;
             align-items: center;
@@ -125,6 +125,7 @@
             }
         }
     }
+    
     .nav {
         height: 100vh;
         width: 175px;
@@ -134,7 +135,7 @@
         background-color: rgba(255, 255, 255, 0.4);
         backdrop-filter: blur(2px);
         position: fixed;
-        left: 0;
+        right: 0;
         .links {
             display: flex;
             align-items: center;

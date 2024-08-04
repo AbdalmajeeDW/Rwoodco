@@ -2,8 +2,8 @@
   padding-left: 3rem;
   padding-right: 3rem;
   margin-left: auto;
-  margin-right: auto;
   margin-top: 4rem;
+  margin-right: auto;
 }
 
 * {
@@ -17,7 +17,6 @@
   src: url("/public/fonts/ReadexPro-SemiBold.ttf");
 }
 body {
-  direction: rtl !important;
   font-family: "first";
 }
 
@@ -60,6 +59,20 @@ a {
     margin-top: 4rem;
   }
 }
+.ar {
+  direction: rtl;
+}
+.ar .nav {
+  left: 0;
+}
+
+.en {
+  direction: ltr;
+}
+.en .nav {
+  right: 0;
+}
+
 .header {
   height: 60px;
   z-index: 100;
@@ -74,6 +87,7 @@ a {
 }
 .header .logo {
   margin-right: 3rem;
+  margin-left: 16px;
 }
 .header .logo img {
   margin-top: 15px;
@@ -96,6 +110,7 @@ a {
      -moz-user-select: none;
           user-select: none;
   margin-left: 3rem;
+  margin-right: 3rem;
   width: 60px;
   height: 30px;
   border: 1px solid rgb(163, 14, 34);
@@ -143,12 +158,8 @@ a {
   .header .links {
     display: none;
   }
-  .header .container_lang .lang {
-    margin-left: 0px;
-  }
   .header .icon_drawer {
     display: flex;
-    margin-left: 1rem;
     cursor: pointer;
     transition: 1s ease-in;
   }
@@ -162,7 +173,7 @@ a {
     -webkit-backdrop-filter: blur(2px);
             backdrop-filter: blur(2px);
     position: fixed;
-    left: 0;
+    right: 0;
   }
   .nav .links {
     display: flex;
@@ -193,7 +204,7 @@ a {
     -webkit-backdrop-filter: blur(2px);
             backdrop-filter: blur(2px);
     position: fixed;
-    left: 0;
+    right: 0;
   }
   .nav .links {
     display: flex;

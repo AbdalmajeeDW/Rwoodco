@@ -7,20 +7,20 @@
       <ul class="links" v-for="(item, i) in items" :key="i">
         <li>
           <NuxtLink :to="item.url" :target="item.target">{{
-            item.name
+            $t(`links.${item.name}`)
           }}</NuxtLink>
         </li>
       </ul>
       <div class="container_lang">
-        <div class="lang" @click="openModalLang">
-          اللغة
-          <v-icon style="font-size: 17px;">mdi-translate</v-icon>
-          
-        </div>
-        <ul v-if="lang" class="select_lang">
-          <li @click="selectLang">العربية</li>
-          <li @click="selectLang">الانكليزية</li>
-        </ul>
+        <form>
+          <select class="lang" id="locale-select" v-model="$i18n.locale">
+            <v-icon style="font-size: 17px">mdi-translate</v-icon>
+
+            <option value="ar">ar</option>
+            <option value="en">en</option>
+          </select>
+        </form>
+      
       </div>
       <div class="icon_drawer" @click="openDrawer">
         <svg
@@ -40,7 +40,7 @@
       <ul class="links" v-for="(item, i) in items" :key="i">
         <li>
           <NuxtLink :to="item.url" :target="item.target">{{
-            item.name
+            $t(`links.${item.name}`)
           }}</NuxtLink>
         </li>
       </ul>
@@ -55,31 +55,30 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      lang: false,
       items: [
         {
-          name: "الرئيسية",
+          name: "home",
           url: "/",
         },
         {
-          name: "معلومات عنا",
+          name: "about",
           url: "/about",
         },
         {
-          name: "مشاريعنا",
+          name: "projects",
           url: "/projects",
         },
         {
-          name: "خدماتنا",
+          name: "services",
           url: "/services",
         },
-       
+
         {
-          name: "اتصل بنا",
+          name: "contact",
           url: "/contact",
         },
         {
-          name: "البروفايل",
+          name: "profile",
           url: "/RWOODCO_PROFILE.pdf",
           target: "_balnk",
         },
@@ -87,15 +86,11 @@ export default {
     };
   },
   methods: {
-    openModalLang() {
-      this.lang = !this.lang;
-    },
+  
     openDrawer() {
       this.drawer = !this.drawer;
     },
-    selectLang() {
-      this.lang = false;
-    },
+   
   },
 };
 </script>

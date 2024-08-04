@@ -4,26 +4,50 @@
     <v-carousel hide-delimiters cycle interval="3000" height="640">
       <template v-slot:next="{ props }">
         <v-btn color="red" v-bind="props"
-          ><v-icon>mdi-arrow-left</v-icon>
+          >  
+          <div v-if="$i18n.locale=='ar'">
+          
+          <v-icon>mdi-arrow-left</v-icon>
+          </div>
+          <div v-else><v-icon>mdi-arrow-right</v-icon></div>
+          
         </v-btn>
       </template>
       <template v-slot:prev="{ props }">
         <v-btn color="green" v-bind="props"
-          ><v-icon>mdi-arrow-right</v-icon>
+          >
+          <div v-if="$i18n.locale=='ar'">
+          
+            <v-icon>mdi-arrow-right</v-icon>
+          </div>
+          <div v-else><v-icon>mdi-arrow-left</v-icon></div>
+          
         </v-btn>
       </template>
       <v-carousel-item
-        src="/t8.jpg"
+        src="/1.jpeg"
         cover
       ></v-carousel-item>
 
       <v-carousel-item
-        src="/t7.jpg"
+        src="/2.jpeg"
         cover
       ></v-carousel-item>
 
       <v-carousel-item
-        src="/t3.jpg"
+        src="/3.jpeg"
+        cover
+      ></v-carousel-item>
+      <v-carousel-item
+        src="/4.jpeg"
+        cover
+      ></v-carousel-item>
+      <v-carousel-item
+        src="/5.jpeg"
+        cover
+      ></v-carousel-item>
+      <v-carousel-item
+        src="/6.jpeg"
         cover
       ></v-carousel-item>
     </v-carousel>
