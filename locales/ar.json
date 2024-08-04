@@ -1,11 +1,11 @@
 {
   "links": {
-    "home":"Home",
-    "about":"About Us",
-    "profile":"Profile",
-    "projects":"Projects",
-          "services":"Services",
-          "contact":"Contact Us"
+    "home":"الرئيسية",
+    "about":"معلومات عنا",
+    "profile":"البروفايل",
+    "projects":"مشاريعنا",
+     "services":"خدماتنا",
+     "contact":"اتصل بنا"
   },
   "aboutCompany":{
     "header":"معلومات عن شركتنا",
