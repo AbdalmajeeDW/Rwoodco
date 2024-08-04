@@ -79,7 +79,7 @@ export default {
         },
         {
           name: "profile",
-          url: "/RWOODCO_PROFILE.pdf",
+          url: "/RWOODCO-PROFILE.pdf",
           target: "_balnk",
         },
       ],
