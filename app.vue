@@ -1,6 +1,6 @@
 <template>
   <v-app :class="$i18n.locale=='en' ?'en':'ar'">
-    <NuxtLayout >
+    <NuxtLayout  theme="light">
       <NuxtPage />
     </NuxtLayout>
   </v-app>

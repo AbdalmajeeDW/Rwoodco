@@ -28,5 +28,8 @@
         </v-card>
       </div>
     </div>
+    <div class="more">
+    <v-btn class="more" ><NuxtLink to="/about" class="routeMore">{{ $t(`about.btnMore`) }}</NuxtLink></v-btn>
+    </div>
   </div>
 </template>

@@ -2,6 +2,8 @@ $base-color: #c6538c;
 $primary-color: rgb(163, 14, 34);
 $padding: 15px;
 $margin: 15px;
+$button-background:red !important;
+$button-color:red !important;
 .container{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -36,13 +38,7 @@ a{
 .router-link-active {
     color: $primary-color;
   }
-  .v-btn--variant-elevated{
-    color: rgba(255, 255, 255, 0.4) !important;
-    backdrop-filter: blur(2px);
-    .v-btn--variant-elevated:hover{
-        color: red;
-    }
-  }
+
   .v-icon{
     color: $primary-color;
     cursor: pointer;
@@ -69,3 +65,26 @@ a{
         right: 0;
     }
 }
+.more_about{
+    // color: #c6538c  !important;
+}
+ .v-btn__content { 
+    color: $primary-color !important;
+    font-family: 'first';
+
+  } 
+
+ .v-btn:hover{
+    color: transparent;
+    cursor: pointer;
+    
+  }
+  .more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    .routeMore{
+    color:$primary-color;
+    }
+  }

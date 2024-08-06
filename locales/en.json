@@ -31,5 +31,49 @@
 "message":{
   "header":"Our message",
   "contain":"Our mission at the Red Wood Contracting Company lies in spreading the culture of quality in its true sense in the field of general contracting in the Kingdom of Saudi Arabia, in order to create real competition between all companies and institutions that provide general contracting services, whether they are large or emerging companies, and this message that we adopt is In order to provide the best services at the most reasonable cost."
+},
+"about":{
+  "btnMore":"Show more"
 }
+,
+  "rate":{
+    "rateUs":"Rate Us"
+  },
+  "leadership":{
+    "header":"Leadership",
+    "contain":"Being diligent in realizing our vision to lead the contracting sector and setting standards in every line of our business ."
+  },
+  "Responsibility":{
+    "header":"The Social Responsibility",
+    "contain":"Because we are committed to building and maintaining our society, raising its level of well-being, promoting the principles of mutual respect, trust, honesty, and supporting teamwork among individuals"
+  },
+  "Franchise":{
+    "header":"Franchise",
+    "contain":"Because we aim to meet and exceed quality standards, because we firmly believe that excellence can be cultivated through dedication and commitment to our customers."
+  } ,
+  "Integrity":{
+    "header":" Integrity",
+    "contain":"Because we seek to build and preserve our society, raise its level of well-being, enhance the principles of trust and honesty, and support teamwork among individuals ."
+  } ,
+  "Professionalism":{
+    "header":" Professionalism and Accuracy",
+    "contain":"Because we view professionalism as our endurance factor in the dynamic business world, and because we believe that attitudes and behavior are valuable to our clients ."
+  } ,
+  "Commitment":{
+    "header":" Commitment",
+    "contain":"We fulfill our obligations to our customers, shareholders and each other and take responsibility for our actions ."
+  } ,
+  "Quality":{
+    "header":" Quality policy",
+    "contain":"Quality is not a final result, but rather an essential part of every stage of the project. The quality control process is used starting from the planning stage of each project. Supervision, inspection, testing and documentation are carried out to ensure that work is progressing in the required manner and level, adherence to the work plan and adherence to the controls regulating the project. Project progress ."
+  },
+  "Safety":{
+    "header":" Safety policy",
+    "contain":"There is no job or service that is so important or urgent that it cannot be performed in a safe manner. Our company maintains an unwavering commitment to the safety of our employees and partners by implementing our corporate safety program, detailed site-specific safety plans, extensive training, and planning and personal accountability.",
+    "contain2":"Our commitment to an 'accident-free' safety culture extends beyond the company's employees to include all of our partners who work on the company's projects. Our primary concern is sending our employees home and to their loved ones safely every day."
+
+  },
+  "SafetyandQuality":{
+    "header":"Quality and Safety policy"
+  }
 }

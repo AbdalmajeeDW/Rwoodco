@@ -183,5 +183,14 @@
             }
         }
     }
-    
+    .more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        .routeMore{
+        color:$primary-color;
+        font-size: 11px;
+        }
+      }
 }

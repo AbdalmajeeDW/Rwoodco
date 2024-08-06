@@ -34,6 +34,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.min.css'],
  
   vite: {
+    
     vue: {
       template: {
         transformAssetUrls,
