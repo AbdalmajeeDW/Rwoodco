@@ -1,9 +1,21 @@
 <template>
   <div>
+    <div class="about_header">
+      <img src="/build1.jpg" alt="" />
+      <p class="head">{{ $t(`head_about.head`) }}</p>
+      <p class="contain">
+        {{ $t(`head_about.contain`) }}
+      </p>
+      <v-btn class="more_head"
+        ><NuxtLink to="#about" class="routeMore2">{{
+          $t(`about.btnMore`)
+        }}</NuxtLink></v-btn
+      >
+    </div>
     <div class="container" id="about">
-      <div class="head_section">{{ $t(`aboutCompany.header`) }}</div>
+      <!-- <div class="head_section">{{ $t(`aboutCompany.header`) }}</div> -->
       <div class="contian_section">
-        {{ $t(`aboutCompany.contain`) }}
+        <!-- {{ $t(`aboutCompany.contain`) }} -->
       </div>
       <div class="sections">
         <v-card class="create">

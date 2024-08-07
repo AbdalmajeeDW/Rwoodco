@@ -40,7 +40,7 @@ a{
   }
 
   .v-icon{
-    color: $primary-color;
+    color: black;
     cursor: pointer;
   }
   @media (max-width: 768px) {
@@ -84,7 +84,11 @@ a{
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    
     .routeMore{
     color:$primary-color;
     }
+  }
+  html{
+    scroll-behavior: smooth;
   }

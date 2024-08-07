@@ -75,5 +75,9 @@
   },
   "SafetyandQuality":{
     "header":"Quality and Safety policy"
+  } ,
+  "head_about":{
+    "head":"Information about the company",
+    "contain":"This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions."
   }
 }
