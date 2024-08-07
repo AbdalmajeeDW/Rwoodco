@@ -353,21 +353,21 @@ html {
   }
   .container .sections .create {
     padding: 1rem;
-    font-size: 10px !important;
+    font-size: 12px !important;
     word-break: break-word;
     line-height: 1.5;
   }
   .container .sections .create .head {
     margin-bottom: 1rem;
     color: rgb(163, 14, 34);
-    font-size: 13px;
+    font-size: 14px;
   }
   .container .sections .create:hover {
     transition: 0.7s ease-in-out;
     transform: scale(0.9);
   }
   .container .sections .scope {
-    font-size: 10px;
+    font-size: 12px;
     word-break: break-word;
     line-height: 1.5;
     padding: 1rem;
@@ -375,7 +375,7 @@ html {
   .container .sections .scope .head {
     margin-bottom: 1rem;
     color: rgb(163, 14, 34);
-    font-size: 13px;
+    font-size: 14px;
   }
   .container .sections .scope:hover {
     transition: 0.7s ease-in;
@@ -383,14 +383,14 @@ html {
   }
   .container .sections .vuer {
     padding: 1rem;
-    font-size: 10px;
+    font-size: 12px;
     word-break: break-word;
     line-height: 1.5;
   }
   .container .sections .vuer .head {
     margin-bottom: 1rem;
     color: rgb(163, 14, 34);
-    font-size: 13px;
+    font-size: 14px;
   }
   .container .sections .vuer:hover {
     transition: 0.7s ease-in;
@@ -398,14 +398,14 @@ html {
   }
   .container .sections .message {
     padding: 1rem;
-    font-size: 10px;
+    font-size: 12px;
     word-break: break-word;
     line-height: 1.5;
   }
   .container .sections .message .head {
     margin-bottom: 1rem;
     color: rgb(163, 14, 34);
-    font-size: 13px;
+    font-size: 14px;
   }
   .container .sections .message:hover {
     transition: 0.7s ease-in;
@@ -499,7 +499,7 @@ html {
     top: 90px;
     height: 100%;
     color: rgb(94, 92, 92);
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .about_header .more_head {
     display: flex;
@@ -508,7 +508,7 @@ html {
     margin-right: 30px;
     margin-left: 30px;
     align-items: center;
-    bottom: 73px;
+    bottom: 70px;
     height: 100%;
   }
   .about_header .more_head a {
