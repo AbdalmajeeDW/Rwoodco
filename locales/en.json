@@ -79,5 +79,16 @@
   "head_about":{
     "head":"Information about the company",
     "contain":"This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions."
+  },
+  "head_project":{
+    "head":"Projects",
+    "contain":"Because we view professionalism as our endurance factor in the dynamic business world, and because we believe that attitudes and behavior are valuable to our clients .",
+    "btn_pro":"Show projects"
+  }
+  ,
+  "head_Services":{
+    "head":"Services",
+    "contain":"Because we seek to build and preserve our society, raise its level of well-being, enhance the principles of trust and honesty, and support teamwork among individuals .",
+    "btn_pro":"Show services"
   }
 }

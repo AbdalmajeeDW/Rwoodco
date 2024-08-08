@@ -117,9 +117,6 @@ html {
 .header .links li {
   list-style: none;
 }
-.header .container_lang {
-  transition: 1s ease-in-out;
-}
 .header .container_lang .lang {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -133,6 +130,7 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  gap: 5px;
   cursor: pointer;
   transition-timing-function: linear;
 }
@@ -142,7 +140,11 @@ html {
   flex-direction: column;
   position: absolute;
   gap: 10px;
+  width: 60px;
+  align-items: center;
   margin-top: 5px;
+  margin-left: 3rem;
+  margin-right: 3rem;
   background-color: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
@@ -481,17 +483,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
-.footer .logo {
-  display: flex;
-  flex-direction: column;
-}
-.footer .logo .icons {
-  width: -moz-fit-content;
-  width: fit-content;
-  display: flex;
-  margin-left: 10px;
-  gap: 20px;
-}
-.footer .logo .icons .insta {
-  color: rgb(228, 64, 95);
+
+.footer:nth-child(0) {
+  color: blue;
 }/*# sourceMappingURL=main.min.css.map */

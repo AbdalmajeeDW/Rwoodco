@@ -5,19 +5,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     // gap: 40px;
-    .logo{
-        display: flex;
-        flex-direction: column;
-
-        .icons{
-            width: fit-content;
-            display: flex;
-            margin-left: 10px;
-            gap: 20px;
-            .insta{
-                color: rgb(228, 64, 95);
-            }
-        
-        }
-    }
+   
 }
+.footer:nth-child(0) {
+    color: blue;
+  }

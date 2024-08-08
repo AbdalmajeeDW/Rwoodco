@@ -12,15 +12,16 @@
         </li>
       </ul>
       <div class="container_lang">
-        <form>
-          <select class="lang" id="locale-select" v-model="$i18n.locale">
-            <v-icon style="font-size: 17px">mdi-translate</v-icon>
+        <div class="lang" @click="fixed = !fixed">
+          {{ $i18n.locale === "en" ? "EN" : "AR" }}
 
-            <option value="ar">ar</option>
-            <option value="en">en</option>
-          </select>
-        </form>
-      
+          <v-icon style="font-size: 17px">mdi-translate</v-icon>
+        </div>
+
+        <ul class="select_lang" v-if="fixed">
+          <li @click="selectLan('ar')">AR</li>
+          <li @click="selectLan('en')">EN</li>
+        </ul>
       </div>
       <div class="icon_drawer" @click="openDrawer">
         <svg
@@ -38,7 +39,7 @@
     </div>
     <div class="nav" v-if="drawer">
       <ul class="links" v-for="(item, i) in items" :key="i">
-        <li>
+        <li @click="closeDrawer">
           <NuxtLink :to="item.url" :target="item.target">{{
             $t(`links.${item.name}`)
           }}</NuxtLink>
@@ -86,11 +87,21 @@ export default {
     };
   },
   methods: {
-  
     openDrawer() {
       this.drawer = !this.drawer;
     },
-   
+    closeDrawer() {
+      this.drawer = false;
+    },
+    selectLan(lan) {
+      if (lan === "en") {
+        this.$i18n.locale = "en";
+        this.fixed = false;
+      } else {
+        this.$i18n.locale = "ar";
+        this.fixed = false;
+      }
+    },
   },
 };
 </script>
