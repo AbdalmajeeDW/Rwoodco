@@ -471,7 +471,7 @@ html {
     position: relative;
   }
   .about_header img {
-    width: 100%;
+    width: 130%;
     height: 85vh;
     box-shadow: 1px 1px 23px 14px rgb(179, 179, 179);
     -o-object-fit: cover;
@@ -508,7 +508,7 @@ html {
     margin-right: 30px;
     margin-left: 30px;
     align-items: center;
-    bottom: 70px;
+    bottom: 96px !important;
     height: 100%;
   }
   .about_header .more_head a {
