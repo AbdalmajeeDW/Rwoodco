@@ -2,7 +2,9 @@
   <div>
     <div class="header">
       <div class="logo">
-        <img src="/logo.png" alt="logo" style="width: 70px" />
+        <NuxtLink to="/">
+          <img src="/logo.png" alt="logo" style="width: 70px" />
+        </NuxtLink>
       </div>
       <ul class="links" v-for="(item, i) in items" :key="i">
         <li>
@@ -15,12 +17,22 @@
         <div class="lang" @click="fixed = !fixed">
           {{ $i18n.locale === "en" ? "EN" : "AR" }}
 
-          <v-icon style="font-size: 17px">mdi-translate</v-icon>
+          <v-icon style="font-size: 17px; color: black">mdi-translate</v-icon>
         </div>
 
         <ul class="select_lang" v-if="fixed">
-          <li @click="selectLan('ar')">AR</li>
-          <li @click="selectLan('en')">EN</li>
+          <li @click="selectLan('ar')">
+            <v-icon style="font-size: 17px; color: green">{{
+              check && "mdi-check"
+            }}</v-icon>
+            AR
+          </li>
+          <li @click="selectLan('en')">
+            <v-icon style="font-size: 17px; color: green">{{
+              !check && "mdi-check"
+            }}</v-icon>
+            EN
+          </li>
         </ul>
       </div>
       <div class="icon_drawer" @click="openDrawer">
@@ -56,6 +68,7 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
+      check: false,
       items: [
         {
           name: "home",
@@ -95,11 +108,12 @@ export default {
     },
     selectLan(lan) {
       if (lan === "en") {
+        this.check = false;
         this.$i18n.locale = "en";
-        this.fixed = false;
       } else {
         this.$i18n.locale = "ar";
         this.fixed = false;
+        this.check = true;
       }
     },
   },

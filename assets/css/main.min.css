@@ -37,7 +37,7 @@ a {
 }
 
 .v-icon {
-  color: black;
+  color: rgb(163, 14, 34);
   cursor: pointer;
 }
 
@@ -117,6 +117,14 @@ html {
 .header .links li {
   list-style: none;
 }
+.header .links li a:hover {
+  color: rgb(163, 14, 34);
+}
+.header .links li:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+  color: rgb(163, 14, 34);
+}
 .header .container_lang .lang {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -155,6 +163,9 @@ html {
 .header .container_lang .select_lang li {
   list-style: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .header .icon_drawer {
   display: none;
@@ -178,7 +189,6 @@ html {
   .header .icon_drawer {
     display: flex;
     cursor: pointer;
-    transition: 1s ease-in;
   }
   .nav {
     height: 100vh;
@@ -205,6 +215,14 @@ html {
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
+  }
+  .nav .links li a:hover {
+    color: rgb(163, 14, 34);
+  }
+  .nav .links li:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: rgb(163, 14, 34);
   }
 }
 @media (max-width: 480px) {
@@ -476,14 +494,36 @@ html {
     font-size: 10px !important;
   }
 }
-.footer {
+.con_footer {
   margin-top: 10px;
   box-shadow: 1px 1px 6px -3px black;
-  height: 300px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
-
-.footer:nth-child(0) {
-  color: blue;
+.con_footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.con_footer .footer {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.con_footer .footer .section_one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.con_footer .footer .section_one .icons {
+  display: flex;
+  gap: 10px;
+}
+.con_footer .footer .section_one .icons a img {
+  cursor: pointer;
+}
+.con_footer .footer .section_one .icons a img:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
 }/*# sourceMappingURL=main.min.css.map */

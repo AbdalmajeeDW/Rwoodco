@@ -8,10 +8,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     .logo {
         margin-right: 3rem;
-        margin-left: 16px;        
+        margin-left: 16px;
         img {
             margin-top: 15px;
             width: 70px;
@@ -24,7 +24,16 @@
         gap: 25px;
         li {
             list-style: none;
-            // margin: 0px;
+            a {
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+            &:hover {
+                transition: 0.5s;
+                transform: scale(1.2);
+                color: $primary-color;
+            }
         }
     }
     .container_lang {
@@ -52,8 +61,9 @@
             position: absolute;
             gap: 10px;
             width: 60px;
-align-items: center;
-            margin-top: 5px;margin-left: 3rem;
+            align-items: center;
+            margin-top: 5px;
+            margin-left: 3rem;
             margin-right: 3rem;
 
             background-color: rgba(255, 255, 255, 0.6);
@@ -65,6 +75,9 @@ align-items: center;
             li {
                 list-style: none;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 5px;
             }
         }
     }
@@ -88,12 +101,10 @@ align-items: center;
         .links {
             display: none;
         }
-       
+
         .icon_drawer {
             display: flex;
-            // margin-left: 1rem;
             cursor: pointer;
-            transition: 1s ease-in;
         }
     }
     .nav {
@@ -116,6 +127,16 @@ align-items: center;
                 list-style: none;
                 z-index: 50;
                 user-select: none;
+                a {
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+                &:hover {
+                    transition: 0.5s;
+                    transform: scale(1.2);
+                    color: $primary-color;
+                }
             }
         }
     }
@@ -128,7 +149,7 @@ align-items: center;
             }
         }
     }
-    
+
     .nav {
         height: 100vh;
         width: 175px;
