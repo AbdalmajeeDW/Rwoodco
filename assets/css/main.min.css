@@ -742,19 +742,77 @@ html {
   opacity: 1;
 }
 
-@media (max-width: 600px) {
-  .container .sections1 {
+@media (max-width: 850px) {
+  .v-dialog .v-toolbar-title__placeholder {
+    font-size: 14px !important;
+  }
+  .v-dialog .v-card .con_img {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 10px;
-    margin-top: 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) !important;
+    justify-items: center;
+    padding-top: 10px;
+    gap: 15px;
+    padding-bottom: 70px;
+  }
+  .v-dialog .v-card .con_img img {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 5px;
   }
 }
-@media (max-width: 768px) {
-  .container .sections1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 10px;
-    margin-top: 5rem;
+@media (max-width: 650px) {
+  .v-dialog .v-toolbar-title__placeholder {
+    font-size: 14px !important;
   }
+  .v-dialog .v-card .con_img {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) !important;
+    justify-items: center;
+    padding-top: 10px;
+    gap: 15px;
+    padding-bottom: 70px;
+  }
+  .v-dialog .v-card .con_img img {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 575px) {
+  .v-dialog .v-toolbar-title__placeholder {
+    font-size: 14px !important;
+  }
+  .v-dialog .v-card .con_img {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+    justify-items: center;
+    padding-top: 10px;
+    gap: 15px;
+    padding-bottom: 70px;
+  }
+  .v-dialog .v-card .con_img img {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 5px;
+  }
+}
+.v-dialog .v-card {
+  height: 100%;
+}
+.v-dialog .v-card .con_img {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  padding-top: 10px;
+  gap: 15px;
+  padding-bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.v-dialog .v-card .con_img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.min.css.map */
