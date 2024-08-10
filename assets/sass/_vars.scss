@@ -5,8 +5,8 @@ $margin: 15px;
 $button-background:red !important;
 $button-color:red !important;
 .container{
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 60px;
+    padding-right: 60px;
     margin-left: auto;
     margin-top: 4rem;
 
@@ -45,8 +45,26 @@ a{
   }
   @media (max-width: 768px) {
     .container{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left:60px;
+        padding-right: 60px;
+        margin-left: auto;
+        margin-right:auto ;
+        margin-top: 4rem;
+    }
+  }
+  @media (max-width: 360px) {
+    .container{
+        padding-left:10px;
+        padding-right: 10px;
+        margin-left: auto;
+        margin-right:auto ;
+        margin-top: 4rem;
+    }
+  }
+  @media (max-width: 550px) {
+    .container{
+        padding-left:30px;
+        padding-right: 30px;
         margin-left: auto;
         margin-right:auto ;
         margin-top: 4rem;

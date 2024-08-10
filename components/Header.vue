@@ -1,11 +1,12 @@
 <template>
-  <div style="user-select: none;">
-    <div class="header">
+  <div class="header">
+    <div  class="container">
       <div class="logo">
         <NuxtLink to="/">
           <img src="/logo.png" alt="logo" style="width: 70px" />
         </NuxtLink>
       </div>
+      
       <ul class="links" v-for="(item, i) in items" :key="i">
         <li>
           <NuxtLink :to="item.url" :target="item.target">{{
@@ -22,26 +23,24 @@
 
         <ul class="select_lang" v-if="fixed">
           <li @click="selectLan('ar')">
-            <v-icon style="font-size: 17px; color: green">{{
+            <v-icon style="font-size: 17px; color: #a30e22">{{
               check && "mdi-check"
             }}</v-icon>
             AR
           </li>
           <li @click="selectLan('en')">
-            <v-icon style="font-size: 17px; color: green">{{
+            <v-icon style="font-size: 17px; color: #a30e22">{{
               !check && "mdi-check"
             }}</v-icon>
             EN
           </li>
         </ul>
       </div>
-      <div @click="isOpen">
+      <div @click="isOpen" class="con_Icon">
         <div class="icon_drawer" @click="openDrawer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="2em" viewBox="0 0 256 256">
-            <path fill="currentColor"
-              d="M32 64a8 8 0 0 1 8-8h176a8 8 0 0 1 0 16H40a8 8 0 0 1-8-8m8 48h128a8 8 0 0 0 0-16H40a8 8 0 0 0 0 16m176 24H40a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16m-48 40H40a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16">
-            </path>
-          </svg>
+          <v-icon style="font-size: 25px; color: #a30e22"
+            >mdi-format-align-left</v-icon
+          >
         </div>
       </div>
     </div>
@@ -107,7 +106,7 @@ export default {
     }, 500);
   },
   methods: {
-    openDrawer(dr) {
+    openDrawer() {
       this.drawer = !this.drawer;
     },
     isOpen() {
@@ -121,9 +120,8 @@ export default {
             }, index * 100);
           });
         }, 500);
-      }else{
-      this.drawer = false;
-
+      } else {
+        this.drawer = false;
       }
     },
     closeDrawer() {

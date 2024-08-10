@@ -1,5 +1,6 @@
 <template>
-  <div class="con_footer">
+  <div></div>
+  <!-- <div class="con_footer">
     <div class="footer">
       <div class="section_one">
         <img src="/logo.png" width="150" alt="" />
@@ -15,7 +16,7 @@
       </div>
     </div>
     <div class="copyright">{{ $t(`Copyright.head`) }}</div>
-  </div>
+  </div> -->
 </template>
 <script>
 export default {};

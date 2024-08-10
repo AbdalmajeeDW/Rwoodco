@@ -97,6 +97,28 @@
     
   } ,
   "Section_projects":{
-    "head":"Projects"
+    "head":"Projects",
+    "contain":"This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions." 
+  },
+  "projects_card":{
+    "project_1":{
+      "titleProject":"The Saudi Investment Bank",
+      "caption":"Finishing the Jeddah Private Banking Branch - The Saudi Investment Bank"
+    },"project_2":{
+      "titleProject":"Bank of the country",
+      "caption":"Implementing screen decor in the main tower - Bank Al Bilad"
+
+    },"project_3":{
+      "titleProject":"The Saudi Investment Bank",
+      "caption":"Modification work at Jubail Branch - Saudi Investment Bank"
+    },"project_4":{
+      "titleProject":"Mosque in Bisha",
+      "caption":"Establishing a mosque in Bisha"
+
+    },"project_5":{
+      
+    },"project_6":{
+      
+    }
   }
 }
