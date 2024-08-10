@@ -126,7 +126,71 @@
       "titleProject":"المركز الطبي الدولي في جدة",
       "caption":"تشطيب المركز الطبي الدولي في جدة"
 
+    },
+
+    "project_7":{
+      "titleProject":"البنك السعودي للاستثمار",
+      "caption":"تبديل جميع الأبواب الأمنية ومخارج الطوارئ في جميع فروع ومباني البنك السعودي للاستثمار"
+
     }
+    ,
+    
+    "project_8":{
+      "titleProject":"فرع الملز - البنك السعودي للاستثمار",
+      "caption":"إنشاء غرفة داتا ونقل المعدات وتجهيزها - فرع الملز البنك السعودي للاستثمار"
+
+    }
+    ,
+    
+    "project_9":{
+      "titleProject":"",
+      "caption":""
+
+    }
+    ,
+    
+    "project_10":{
+      "titleProject":"",
+      "caption":""
+
+    }
+    ,
+    
+    "project_11":{
+      "titleProject":"",
+      "caption":""
+
+    }
+    ,
+    
+    "project_12":{
+      "titleProject":"",
+      "caption":""
+
+    }
+    ,
+    
+    "project_13":{
+      "titleProject":"",
+      "caption":""
+
+    }
+    ,
+    
+    "project_14":{
+      "titleProject":"",
+      "caption":""
+
+    }
+    ,
+    
+    "project_15":{
+      "titleProject":"",
+      "caption":""
+
+    }
+
+
   }
 }
 

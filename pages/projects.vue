@@ -104,11 +104,26 @@ export default {
           caption: "projects_card.project_5.caption",
         },
         {
-          id: "5",
+          id: "6",
           img: "center_helth/9.jpeg",
           categorie: "center_helth",
           titleProject: "projects_card.project_6.titleProject",
           caption: "projects_card.project_6.caption",
+        },
+
+        {
+          id: "7",
+          img: "door_bank/9.jpeg",
+          categorie: "door_bank",
+          titleProject: "projects_card.project_7.titleProject",
+          caption: "projects_card.project_7.caption",
+        },
+        {
+          id: "8",
+          img: "data_c/1.jpeg",
+          categorie: "data_c",
+          titleProject: "projects_card.project_8.titleProject",
+          caption: "projects_card.project_8.caption",
         },
       ],
       cards: [
@@ -332,6 +347,98 @@ export default {
           img: "center_helth/9.jpeg",
           categorie: "center_helth",
         },
+        {
+          id: "1",
+          img: "door_bank/1.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "2",
+          img: "door_bank/2.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "3",
+          img: "door_bank/3.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "4",
+          img: "door_bank/4.jpeg",
+          categorie: "door_bank",
+        },
+
+        {
+          id: "5",
+          img: "door_bank/5.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "6",
+          img: "door_bank/6.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "7",
+          img: "door_bank/7.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "8",
+          img: "door_bank/8.jpeg",
+          categorie: "door_bank",
+        },
+
+        {
+          id: "9",
+          img: "door_bank/9.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "10",
+          img: "door_bank/10.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "11",
+          img: "door_bank/11.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "12",
+          img: "door_bank/12.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "13",
+          img: "door_bank/13.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "14",
+          img: "door_bank/14.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "15",
+          img: "door_bank/15.jpeg",
+          categorie: "door_bank",
+        },
+        {
+          id: "1",
+          img: "data_c/1.jpeg",
+          categorie: "data_c",
+        },
+        {
+          id: "2",
+          img: "data_c/2.jpeg",
+          categorie: "data_c",
+        },
+        {
+          id: "3",
+          img: "data_c/3.jpeg",
+          categorie: "data_c",
+        },
       ],
     };
   },
@@ -340,21 +447,6 @@ export default {
       this.cat = obj;
       let n = this.cards.filter((e) => e.categorie === obj.categorie);
       this.arrayFilter = n;
-    },
-    isOpen() {
-      if (this.drawer === true) {
-        const navLinks = document.querySelectorAll(".nav > .links");
-
-        setTimeout(() => {
-          navLinks.forEach((link, index) => {
-            setTimeout(() => {
-              link.classList.add("appear");
-            }, index * 100);
-          });
-        }, 500);
-      } else {
-        this.drawer = false;
-      }
     },
   },
   mounted() {
