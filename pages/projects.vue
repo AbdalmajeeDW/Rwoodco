@@ -17,7 +17,7 @@
       <div id="Projects"></div>
       <div class="sections1">
         <div v-for="(project, i) in projects" :key="i">
-          <div @click="dialog = !dialog">
+          <div @click="dialog = !dialog" class="con">
             <div class="card" @click="clickCard(project)">
               <div class="details"><v-icon> mdi-alert-circle-outline </v-icon></div>
 
@@ -872,6 +872,7 @@ export default {
   },
   mounted() {
     const cards = document.querySelectorAll(".v-card");
+    const projects = document.querySelectorAll(".sections1  .con");
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -889,6 +890,9 @@ export default {
     );
 
     cards.forEach((card) => {
+      observer.observe(card);
+    });
+    projects.forEach((card) => {
       observer.observe(card);
     });
   },

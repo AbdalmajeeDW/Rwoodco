@@ -15,9 +15,11 @@
 @font-face {
   font-family: "first";
   src: url("/public/fonts/ReadexPro-SemiBold.ttf");
+  font-weight: lighter;
 }
 body {
   font-family: "first";
+  background-color: rgba(236, 234, 234, 0.9882352941);
 }
 
 .router-link-exact-active {
@@ -796,6 +798,12 @@ html {
   }
 }
 @media (max-width: 575px) {
+  .container .sections1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+    margin-top: 5rem;
+  }
   .v-dialog .v-toolbar-title__placeholder {
     font-size: 14px !important;
   }
@@ -835,4 +843,96 @@ html {
   border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.sections1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.sections1 .con {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+.sections1 .con.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container .section_services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-items: center;
+  gap: 40px;
+  margin-top: 5rem;
+}
+.container .section_services .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 1px 2px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, 0.2)), 0px 1px 1px 0px var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.14)), 0px 1px 3px 0px var(--v-shadow-key-ambient-opacity, rgba(0, 0, 0, 0.12));
+}
+.container .section_services .service .con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .section_services .service .con .backIcon {
+  position: absolute;
+  z-index: 10;
+  top: -25px;
+  background-color: rgb(163, 14, 34);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 1px 2px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, 0.2)), 0px 1px 1px 0px var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.14)), 0px 1px 3px 0px var(--v-shadow-key-ambient-opacity, rgba(0, 0, 0, 0.12));
+}
+.container .section_services .service .con .backIcon .v-icon {
+  color: white;
+}
+.container .section_services .service .caption {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+.container .section_services .service .caption .title_card_services {
+  color: rgb(163, 14, 34);
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 15px;
+}
+.container .section_services .service .caption p {
+  line-height: 2;
+  font-size: 14px;
+}
+.container .section_services .service:hover {
+  transition: 1s ease-in-out;
+  transform-origin: right;
+  background-color: rgb(163, 14, 34);
+}
+.container .section_services .service:hover .title_card_services {
+  color: white;
+}
+.container .section_services .service:hover .caption p {
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .container .section_services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    justify-items: center;
+    gap: 40px;
+    margin-top: 5rem;
+  }
 }/*# sourceMappingURL=main.min.css.map */

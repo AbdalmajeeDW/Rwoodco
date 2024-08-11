@@ -18,7 +18,7 @@
         <div class="lang" @click="fixed = !fixed">
           {{ $i18n.locale === "en" ? "EN" : "AR" }}
 
-          <v-icon style="font-size: 17px; color: black">mdi-translate</v-icon>
+          <v-icon style="font-size: 17px; color: black">mdi-earth</v-icon>
         </div>
 
         <ul class="select_lang" v-if="fixed">

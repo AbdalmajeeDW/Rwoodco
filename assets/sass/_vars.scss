@@ -20,10 +20,12 @@ $button-color:red !important;
 @font-face {
     font-family: 'first';
     src: url('/public/fonts/ReadexPro-SemiBold.ttf') ;
+    font-weight: lighter;
   
 }
 body{
     font-family: 'first' ;
+    background-color: #eceaeafc;
 }
 .router-link-exact-active{
     color: $primary-color;

@@ -68,9 +68,11 @@
       </div>
       <div class="sections1">
         <div v-for="(project, i) in projects" :key="i">
-          <div @click="dialog = !dialog">
+          <div @click="dialog = !dialog" class="con">
             <div class="card" @click="clickCard(project)">
-              <div class="details"><v-icon> mdi-alert-circle-outline </v-icon></div>
+              <div class="details">
+                <v-icon> mdi-alert-circle-outline </v-icon>
+              </div>
               <img :src="project.img" alt="" />
               <div class="caption">
                 <p>
@@ -112,6 +114,62 @@
         </div>
       </v-card>
     </v-dialog>
+    <div class="container">
+      <div class="head_section">{{ $t(`Section_Services.head`) }}</div>
+
+      <div class="section_services">
+        <div class="service">
+          <div class="con">
+            <div class="backIcon">
+              <v-icon> mdi-home </v-icon>
+            </div>
+          </div>
+          <div class="caption">
+            <div class="title_card_services">
+              {{ $t(`Section_Services.Service1.head`) }}
+            </div>
+            <p>
+              {{ $t(`Section_Services.Service1.contain`) }}
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="con">
+            <div class="backIcon">
+              <v-icon> mdi-forklift </v-icon>
+            </div>
+          </div>
+          <div class="caption">
+            <div class="title_card_services">
+              {{ $t(`Section_Services.Service2.head`) }}
+            </div>
+            <p>
+              {{ $t(`Section_Services.Service2.contain`) }}
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="con">
+            <div class="backIcon">
+              <v-icon> mdi-pipe </v-icon>
+            </div>
+          </div>
+          <div class="caption">
+            <div class="title_card_services">
+              {{ $t(`Section_Services.Service3.head`) }}
+            </div>
+            <p>
+              {{ $t(`Section_Services.Service3.contain`) }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <NuxtLink to="/services" class="routeMore"
+          ><v-btn class="more">{{ $t(`about.btnMore`) }} </v-btn></NuxtLink
+        >
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -416,6 +474,7 @@ export default {
   },
   mounted() {
     const cards = document.querySelectorAll(".v-card");
+    const projects = document.querySelectorAll(".sections1  .con");
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -433,6 +492,9 @@ export default {
     );
 
     cards.forEach((card) => {
+      observer.observe(card);
+    });
+    projects.forEach((card) => {
       observer.observe(card);
     });
   },
