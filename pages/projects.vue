@@ -43,7 +43,7 @@
         <img
           src="/logo.png"
           alt="logo"
-          style="width: 70px; margin-inline-end: 4px; margin-top: 10px"
+          style="width: 70px; margin-inline-end: 20px; margin-top: 10px"
         />
       </v-toolbar>
 
@@ -124,6 +124,34 @@ export default {
           categorie: "data_c",
           titleProject: "projects_card.project_8.titleProject",
           caption: "projects_card.project_8.caption",
+        },
+        {
+          id: "9",
+          img: "barking/1.jpeg",
+          categorie: "barking",
+          titleProject: "projects_card.project_9.titleProject",
+          caption: "projects_card.project_9.caption",
+        },
+        {
+          id: "10",
+          img: "Civil_defense/1.jpeg",
+          categorie: "Civil_defense",
+          titleProject: "projects_card.project_10.titleProject",
+          caption: "projects_card.project_10.caption",
+        },
+        {
+          id: "11",
+          img: "Civil_defense_akek/4.jpeg",
+          categorie: "Civil_defense_akek",
+          titleProject: "projects_card.project_11.titleProject",
+          caption: "projects_card.project_11.caption",
+        },
+        {
+          id: "12",
+          img: "villa_nakel/1.jpeg",
+          categorie: "villa_nakel",
+          titleProject: "projects_card.project_12.titleProject",
+          caption: "projects_card.project_12.caption",
         },
       ],
       cards: [
@@ -438,6 +466,146 @@ export default {
           id: "3",
           img: "data_c/3.jpeg",
           categorie: "data_c",
+        },
+        {
+          id: "1",
+          img: "barking/1.jpeg",
+          categorie: "barking",
+        },
+        {
+          id: "2",
+          img: "barking/2.jpeg",
+          categorie: "barking",
+        },
+        {
+          id: "3",
+          img: "barking/3.jpeg",
+          categorie: "barking",
+        },
+        {
+          id: "4",
+          img: "barking/4.jpeg",
+          categorie: "barking",
+        },
+        {
+          id: "1",
+          img: "Civil_defense/1.jpeg",
+          categorie: "Civil_defense",
+        },
+        {
+          id: "2",
+          img: "Civil_defense/2.jpeg",
+          categorie: "Civil_defense",
+        },
+        {
+          id: "3",
+          img: "Civil_defense/3.jpeg",
+          categorie: "Civil_defense",
+        },
+        {
+          id: "4",
+          img: "Civil_defense/4.jpeg",
+          categorie: "Civil_defense",
+        },
+        {
+          id: "5",
+          img: "Civil_defense/5.jpeg",
+          categorie: "Civil_defense",
+        },
+        {
+          id: "4",
+          img: "Civil_defense_akek/4.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "1",
+          img: "Civil_defense_akek/1.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "2",
+          img: "Civil_defense_akek/2.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "3",
+          img: "Civil_defense_akek/3.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "5",
+          img: "Civil_defense_akek/5.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "6",
+          img: "Civil_defense_akek/6.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "7",
+          img: "Civil_defense_akek/7.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "8",
+          img: "Civil_defense_akek/8.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "9",
+          img: "Civil_defense_akek/9.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "10",
+          img: "Civil_defense_akek/10.jpeg",
+          categorie: "Civil_defense_akek",
+        },
+        {
+          id: "1",
+          img: "villa_nakel/1.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "2",
+          img: "villa_nakel/2.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "3",
+          img: "villa_nakel/3.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "4",
+          img: "villa_nakel/4.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "5",
+          img: "villa_nakel/5.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "6",
+          img: "villa_nakel/6.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "7",
+          img: "villa_nakel/7.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "8",
+          img: "villa_nakel/8.jpeg",
+          categorie: "villa_nakel",
+        },
+        {
+          id: "9",
+          img: "villa_nakel/9.jpeg",
+          categorie: "villa_nakel",
         },
       ],
     };

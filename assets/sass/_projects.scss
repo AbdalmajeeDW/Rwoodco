@@ -135,6 +135,9 @@
   }
 }
 .v-dialog {
+  .v-toolbar-title__placeholder{
+    font-size: 16px !important;
+  }
   .v-card {
     height: 100%;
     .con_img {

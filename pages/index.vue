@@ -17,14 +17,15 @@
           <div v-else><v-icon>mdi-arrow-left</v-icon></div>
         </v-btn>
       </template>
-      <v-carousel-item src="/public/1.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/bank_jdah2/1.jpeg" cover></v-carousel-item>
+
+      <v-carousel-item src="/bank_jbeel/3.jpeg" cover></v-carousel-item>
 
       <v-carousel-item src="/public/2.jpeg" cover></v-carousel-item>
 
       <v-carousel-item src="/public/3.jpeg" cover></v-carousel-item>
       <v-carousel-item src="/public/4.jpeg" cover></v-carousel-item>
       <v-carousel-item src="/public/5.jpeg" cover></v-carousel-item>
-      <v-carousel-item src="/public/6.jpeg" cover></v-carousel-item>
     </v-carousel>
     <div class="container">
       <div class="head_section">{{ $t(`aboutCompany.header`) }}</div>

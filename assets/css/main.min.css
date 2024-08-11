@@ -796,6 +796,9 @@ html {
     border-radius: 5px;
   }
 }
+.v-dialog .v-toolbar-title__placeholder {
+  font-size: 16px !important;
+}
 .v-dialog .v-card {
   height: 100%;
 }
