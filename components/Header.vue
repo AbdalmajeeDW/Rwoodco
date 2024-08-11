@@ -1,12 +1,12 @@
 <template>
   <div class="header">
-    <div  class="container">
+    <div class="container">
       <div class="logo">
         <NuxtLink to="/">
           <img src="/logo.png" alt="logo" style="width: 70px" />
         </NuxtLink>
       </div>
-      
+
       <ul class="links" v-for="(item, i) in items" :key="i">
         <li>
           <NuxtLink :to="item.url" :target="item.target">{{
@@ -38,7 +38,14 @@
       </div>
       <div @click="isOpen" class="con_Icon">
         <div class="icon_drawer" @click="openDrawer">
-          <v-icon style="font-size: 25px; color: #a30e22"
+          <v-icon
+            style="
+              font-size: 25px;
+              color: #a30e22;
+              display: flex;
+              justify-content: flex-end;
+              width: 70px;
+            "
             >mdi-format-align-left</v-icon
           >
         </div>

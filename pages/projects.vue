@@ -163,7 +163,7 @@ export default {
         },
         {
           id: "14",
-          img: "Diriyah_Tunnel/1.jpg",
+          img: "Diriyah_Tunnel/1.JPG",
           categorie: "Diriyah_Tunnel",
           titleProject: "projects_card.project_14.titleProject",
           caption: "projects_card.project_14.caption",
@@ -202,6 +202,27 @@ export default {
           categorie: "ATM",
           titleProject: "projects_card.project_19.titleProject",
           caption: "projects_card.project_19.caption",
+        },
+        {
+          id: "20",
+          img: "People_special/1.jpeg",
+          categorie: "People_special",
+          titleProject: "projects_card.project_20.titleProject",
+          caption: "projects_card.project_20.caption",
+        },
+        {
+          id: "21",
+          img: "Sales_management/1.jpeg",
+          categorie: "Sales_management",
+          titleProject: "projects_card.project_21.titleProject",
+          caption: "projects_card.project_21.caption",
+        },
+        {
+          id: "22",
+          img: "ATMs _apel/1.jpeg",
+          categorie: "ATMs _apel",
+          titleProject: "projects_card.project_22.titleProject",
+          caption: "projects_card.project_22.caption",
         },
       ],
       cards: [
@@ -684,7 +705,7 @@ export default {
         },
         {
           id: "1",
-          img: "Diriyah_Tunnel/1.jpg",
+          img: "Diriyah_Tunnel/1.JPG",
           categorie: "Diriyah_Tunnel",
         },
         {
@@ -699,7 +720,7 @@ export default {
         },
         {
           id: "4",
-          img: "Diriyah_Tunnel/4.jpg",
+          img: "Diriyah_Tunnel/4.JPG",
           categorie: "Diriyah_Tunnel",
         },
         {
@@ -776,6 +797,66 @@ export default {
           id: "3",
           img: "ATM/3.jpeg",
           categorie: "ATM",
+        },
+        {
+          id: "1",
+          img: "People_special/1.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "2",
+          img: "People_special/2.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "3",
+          img: "People_special/3.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "4",
+          img: "People_special/4.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "5",
+          img: "People_special/5.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "6",
+          img: "People_special/6.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "7",
+          img: "People_special/7.jpeg",
+          categorie: "People_special",
+        },
+        {
+          id: "1",
+          img: "Sales_management/1.jpeg",
+          categorie: "Sales_management",
+        },
+        {
+          id: "2",
+          img: "Sales_management/2.jpeg",
+          categorie: "Sales_management",
+        },
+        {
+          id: "1",
+          img: "ATMs _apel/1.jpeg",
+          categorie: "ATMs _apel",
+        },
+        {
+          id: "2",
+          img: "ATMs _apel/2.jpeg",
+          categorie: "ATMs _apel",
+        },
+        {
+          id: "3",
+          img: "ATMs _apel/3.jpeg",
+          categorie: "ATMs _apel",
         },
       ],
     };

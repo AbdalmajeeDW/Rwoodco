@@ -175,13 +175,18 @@
     }
     ,
     "project_20": {
-      "titleProject": "",
-      "caption": ""
+      "titleProject": "Projects implementing the requirements of people with special needs",
+      "caption": "Projects to implement the requirements of people with special needs and modifications to the built environment in various locations"
     }
     ,
     "project_21": {
-      "titleProject": "",
-      "caption": ""
+      "titleProject": "Bank Al-Bilad",
+      "caption": "Direct sales management implementation project for Enjaz branch in Hail - Bank Al Bilad"
+    }
+    ,
+    "project_22": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "A project to implement all ATMs at the apel Festival - The Saudi Investment Bank (6 ATMs in a period of 40 days)"
     }
   }
 }
