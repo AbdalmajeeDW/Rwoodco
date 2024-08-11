@@ -19,6 +19,8 @@
         <div v-for="(project, i) in projects" :key="i">
           <div @click="dialog = !dialog">
             <div class="card" @click="clickCard(project)">
+              <div class="details"><v-icon> mdi-alert-circle-outline </v-icon></div>
+
               <img :src="project.img" alt="" />
               <div class="caption">
                 <p>

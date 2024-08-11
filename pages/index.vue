@@ -70,6 +70,7 @@
         <div v-for="(project, i) in projects" :key="i">
           <div @click="dialog = !dialog">
             <div class="card" @click="clickCard(project)">
+              <div class="details"><v-icon> mdi-alert-circle-outline </v-icon></div>
               <img :src="project.img" alt="" />
               <div class="caption">
                 <p>
@@ -79,6 +80,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="more">
+        <NuxtLink to="/projects" class="routeMore"
+          ><v-btn class="more">{{ $t(`about.btnMore`) }} </v-btn></NuxtLink
+        >
       </div>
     </div>
     <v-dialog
@@ -94,7 +100,7 @@
         <img
           src="/logo.png"
           alt="logo"
-          style="width: 70px; margin-inline-end: 4px; margin-top: 10px"
+          style="width: 70px; margin-inline-end: 20px; margin-top: 10px"
         />
       </v-toolbar>
 
