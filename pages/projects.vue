@@ -153,6 +153,56 @@ export default {
           titleProject: "projects_card.project_12.titleProject",
           caption: "projects_card.project_12.caption",
         },
+        ///////////////////////////////////
+        {
+          id: "13",
+          img: "Emergency_exit/1.jpeg",
+          categorie: "Emergency_exit",
+          titleProject: "projects_card.project_13.titleProject",
+          caption: "projects_card.project_13.caption",
+        },
+        {
+          id: "14",
+          img: "Diriyah_Tunnel/1.jpg",
+          categorie: "Diriyah_Tunnel",
+          titleProject: "projects_card.project_14.titleProject",
+          caption: "projects_card.project_14.caption",
+        },
+        {
+          id: "15",
+          img: "paint_akek_orx/1.jpeg",
+          categorie: "paint_akek_orx",
+          titleProject: "projects_card.project_15.titleProject",
+          caption: "projects_card.project_15.caption",
+        },
+        {
+          id: "16",
+          img: "specialized_branch/1.jpeg",
+          categorie: "specialized_branch",
+          titleProject: "projects_card.project_16.titleProject",
+          caption: "projects_card.project_16.caption",
+        },
+        {
+          id: "17",
+          img: "Advertising_banner/1.jpeg",
+          categorie: "Advertising_banner",
+          titleProject: "projects_card.project_17.titleProject",
+          caption: "projects_card.project_17.caption",
+        },
+        {
+          id: "18",
+          img: "Khamis_branch/1.jpeg",
+          categorie: "Khamis_branch",
+          titleProject: "projects_card.project_18.titleProject",
+          caption: "projects_card.project_18.caption",
+        },
+        {
+          id: "19",
+          img: "ATM/1.jpeg",
+          categorie: "ATM",
+          titleProject: "projects_card.project_19.titleProject",
+          caption: "projects_card.project_19.caption",
+        },
       ],
       cards: [
         {
@@ -606,6 +656,126 @@ export default {
           id: "9",
           img: "villa_nakel/9.jpeg",
           categorie: "villa_nakel",
+        },
+        {
+          id: "1",
+          img: "Emergency_exit/1.jpeg",
+          categorie: "Emergency_exit",
+        },
+        {
+          id: "2",
+          img: "Emergency_exit/2.jpeg",
+          categorie: "Emergency_exit",
+        },
+        {
+          id: "3",
+          img: "Emergency_exit/3.jpeg",
+          categorie: "Emergency_exit",
+        },
+        {
+          id: "4",
+          img: "Emergency_exit/4.jpeg",
+          categorie: "Emergency_exit",
+        },
+        {
+          id: "5",
+          img: "Emergency_exit/5.jpeg",
+          categorie: "Emergency_exit",
+        },
+        {
+          id: "1",
+          img: "Diriyah_Tunnel/1.jpg",
+          categorie: "Diriyah_Tunnel",
+        },
+        {
+          id: "2",
+          img: "Diriyah_Tunnel/2.jpg",
+          categorie: "Diriyah_Tunnel",
+        },
+        {
+          id: "3",
+          img: "Diriyah_Tunnel/3.jpg",
+          categorie: "Diriyah_Tunnel",
+        },
+        {
+          id: "4",
+          img: "Diriyah_Tunnel/4.jpg",
+          categorie: "Diriyah_Tunnel",
+        },
+        {
+          id: "5",
+          img: "Diriyah_Tunnel/5.jpeg",
+          categorie: "Diriyah_Tunnel",
+        },
+        {
+          id: "6",
+          img: "Diriyah_Tunnel/6.jpeg",
+          categorie: "Diriyah_Tunnel",
+        },
+        {
+          id: "1",
+          img: "paint_akek_orx/1.jpeg",
+          categorie: "paint_akek_orx",
+        },
+        {
+          id: "2",
+          img: "paint_akek_orx/2.jpeg",
+          categorie: "paint_akek_orx",
+        },
+        {
+          id: "1",
+          img: "specialized_branch/1.jpeg",
+          categorie: "specialized_branch",
+        },
+        {
+          id: "2",
+          img: "specialized_branch/2.jpeg",
+          categorie: "specialized_branch",
+        },
+        {
+          id: "1",
+          img: "Advertising_banner/1.jpeg",
+          categorie: "Advertising_banner",
+        },
+        {
+          id: "2",
+          img: "Advertising_banner/2.jpeg",
+          categorie: "Advertising_banner",
+        },
+        {
+          id: "1",
+          img: "Khamis_branch/1.jpeg",
+          categorie: "Khamis_branch",
+        },
+        {
+          id: "2",
+          img: "Khamis_branch/2.jpeg",
+          categorie: "Khamis_branch",
+        },
+        {
+          id: "3",
+          img: "Khamis_branch/3.jpeg",
+          categorie: "Khamis_branch",
+        },
+        {
+          id: "4",
+          img: "Khamis_branch/4.jpeg",
+          categorie: "Khamis_branch",
+        },
+        {
+          id: "1",
+          img: "ATM/1.jpeg",
+          categorie: "ATM",
+        },
+        {
+          id: "2",
+          img: "ATM/2.jpeg",
+          categorie: "ATM",
+        },
+        {
+          id: "3",
+          img: "ATM/3.jpeg",
+          categorie: "ATM",
         },
       ],
     };

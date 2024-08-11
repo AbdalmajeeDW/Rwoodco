@@ -1,190 +1,187 @@
 {
   "links": {
-    "home":"Home",
-    "about":"About Us",
-    "profile":"Profile",
-    "projects":"Projects",
-          "services":"Services",
-          "contact":"Contact Us"
+    "home": "Home",
+    "about": "About Us",
+    "profile": "Profile",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact Us"
   },
-  "aboutCompany":{
-    "header":"Information about our company",
-    "contain":"Our beginning in 2019 as Redwood Contracting Est"
+  "aboutCompany": {
+    "header": "Information about our company",
+    "contain": "Our beginning in 2019 as Redwood Contracting Est"
   },
-  "creat":{
-    "header":"Our beginning",
-    "contain":"This organization is a family of global people who work hard to become a world-class construction company by exploring new markets and partnerships. The organization aims to become a company in 2023 with the same passion but with greater goals and ambitions. We are committed to our responsibilities and our partners and aspire to build a better future. The company has practiced its brand for a short period of time thanks to the trust and satisfaction of its customers due to the efficiency and presence of its staff resulting from specialization and experience in addition to commitment and integrity in work."
+  "creat": {
+    "header": "Our beginning",
+    "contain": "This organization is a family of global people who work hard to become a world-class construction company by exploring new markets and partnerships. The organization aims to become a company in 2023 with the same passion but with greater goals and ambitions. We are committed to our responsibilities and our partners and aspire to build a better future. The company has practiced its brand for a short period of time thanks to the trust and satisfaction of its customers due to the efficiency and presence of its staff resulting from specialization and experience in addition to commitment and integrity in work."
   },
-  "vision":{
-    "header":"Our vision",
-    "contain":"We look forward to expanding future, advanced businesses that are in line with the vision of the Kingdom of Saudi Arabia (2023), which seeks to apply technology and environmentally friendly alternative energy and implement smart ideas with the participation of successful companies in order to bring our company to a global level in providing services of the highest quality and professionalism."
-},
-"target":{
-  "header":"Our targets",
-  "contain1":"Implementing projects with the highest levels of quality, safety, efficiency and creativity.",
-  "contain2":"Achieving customer satisfaction and meeting their needs.",
-  "contain3":"Achieving sustainable growth and expansion in local and international markets.",
-  "contain4":"Recruiting competencies and developing the skills of the company’s employees",
-  "contain5":"Commitment to social and environmental responsibility"
-}
-,
-"message":{
-  "header":"Our message",
-  "contain":"Our mission at the Red Wood Contracting Company lies in spreading the culture of quality in its true sense in the field of general contracting in the Kingdom of Saudi Arabia, in order to create real competition between all companies and institutions that provide general contracting services, whether they are large or emerging companies, and this message that we adopt is In order to provide the best services at the most reasonable cost."
-},
-"about":{
-  "btnMore":"Show more"
-}
-,
-  "rate":{
-    "rateUs":"Rate Us"
+  "vision": {
+    "header": "Our vision",
+    "contain": "We look forward to expanding future, advanced businesses that are in line with the vision of the Kingdom of Saudi Arabia (2023), which seeks to apply technology and environmentally friendly alternative energy and implement smart ideas with the participation of successful companies in order to bring our company to a global level in providing services of the highest quality and professionalism."
   },
-  "leadership":{
-    "header":"Leadership",
-    "contain":"Being diligent in realizing our vision to lead the contracting sector and setting standards in every line of our business ."
+  "target": {
+    "header": "Our targets",
+    "contain1": "Implementing projects with the highest levels of quality, safety, efficiency and creativity.",
+    "contain2": "Achieving customer satisfaction and meeting their needs.",
+    "contain3": "Achieving sustainable growth and expansion in local and international markets.",
+    "contain4": "Recruiting competencies and developing the skills of the company’s employees",
+    "contain5": "Commitment to social and environmental responsibility"
   },
-  "Responsibility":{
-    "header":"The Social Responsibility",
-    "contain":"Because we are committed to building and maintaining our society, raising its level of well-being, promoting the principles of mutual respect, trust, honesty, and supporting teamwork among individuals"
+  "message": {
+    "header": "Our message",
+    "contain": "Our mission at the Red Wood Contracting Company lies in spreading the culture of quality in its true sense in the field of general contracting in the Kingdom of Saudi Arabia, in order to create real competition between all companies and institutions that provide general contracting services, whether they are large or emerging companies, and this message that we adopt is In order to provide the best services at the most reasonable cost."
   },
-  "Franchise":{
-    "header":"Franchise",
-    "contain":"Because we aim to meet and exceed quality standards, because we firmly believe that excellence can be cultivated through dedication and commitment to our customers."
-  } ,
-  "Integrity":{
-    "header":" Integrity",
-    "contain":"Because we seek to build and preserve our society, raise its level of well-being, enhance the principles of trust and honesty, and support teamwork among individuals ."
-  } ,
-  "Professionalism":{
-    "header":" Professionalism and Accuracy",
-    "contain":"Because we view professionalism as our endurance factor in the dynamic business world, and because we believe that attitudes and behavior are valuable to our clients ."
-  } ,
-  "Commitment":{
-    "header":" Commitment",
-    "contain":"We fulfill our obligations to our customers, shareholders and each other and take responsibility for our actions ."
-  } ,
-  "Quality":{
-    "header":" Quality policy",
-    "contain":"Quality is not a final result, but rather an essential part of every stage of the project. The quality control process is used starting from the planning stage of each project. Supervision, inspection, testing and documentation are carried out to ensure that work is progressing in the required manner and level, adherence to the work plan and adherence to the controls regulating the project. Project progress ."
+  "about": {
+    "btnMore": "Show more"
   },
-  "Safety":{
-    "header":" Safety policy",
-    "contain":"There is no job or service that is so important or urgent that it cannot be performed in a safe manner. Our company maintains an unwavering commitment to the safety of our employees and partners by implementing our corporate safety program, detailed site-specific safety plans, extensive training, and planning and personal accountability.",
-    "contain2":"Our commitment to an 'accident-free' safety culture extends beyond the company's employees to include all of our partners who work on the company's projects. Our primary concern is sending our employees home and to their loved ones safely every day."
-
+  "rate": {
+    "rateUs": "Rate Us"
   },
-  "SafetyandQuality":{
-    "header":"Quality and Safety policy"
-  } ,
-  "head_about":{
-    "head":"Information about the company",
-    "contain":"This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions."
+  "leadership": {
+    "header": "Leadership",
+    "contain": "Being diligent in realizing our vision to lead the contracting sector and setting standards in every line of our business ."
   },
-  "head_project":{
-    "head":"Projects",
-    "contain":"Because we view professionalism as our endurance factor in the dynamic business world, and because we believe that attitudes and behavior are valuable to our clients .",
-    "btn_pro":"Show projects"
-  }
-  ,
-  "head_Services":{
-    "head":"Services",
-    "contain":"Because we seek to build and preserve our society, raise its level of well-being, enhance the principles of trust and honesty, and support teamwork among individuals .",
-    "btn_pro":"Show services"
-  }
-  ,
-  "Copyright":{
-    "head":"Rwoodco - All rights reserved 2024 ©"
-    
-  } ,
-  "Section_projects":{
-    "head":"Projects",
-    "contain":"This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions." 
+  "Responsibility": {
+    "header": "The Social Responsibility",
+    "contain": "Because we are committed to building and maintaining our society, raising its level of well-being, promoting the principles of mutual respect, trust, honesty, and supporting teamwork among individuals"
   },
-  "projects_card":{
-    "project_1":{
-      "titleProject":"The Saudi Investment Bank",
-      "caption":"Finishing the Jeddah Private Banking Branch - The Saudi Investment Bank"
-    },"project_2":{
-      "titleProject":"Bank of the country",
-      "caption":"Implementing screen decor in the main tower - Bank Al Bilad"
-
-    },"project_3":{
-      "titleProject":"The Saudi Investment Bank",
-      "caption":"Modification work at Jubail Branch - Saudi Investment Bank"
-    },"project_4":{
-      "titleProject":"Mosque in Bisha",
-      "caption":"Establishing a mosque in Bisha"
-
-    },"project_5":{
-      "titleProject":"The Saudi Investment Bank",
-      "caption":"Developing the main entrances to the general administration and branches - The Saudi Investment Bank"
-
-    },"project_6":{
-      "titleProject":"International Medical Center in Jeddah",
-      "caption":"Finishing the International Medical Center in Jeddah"
-
+  "Franchise": {
+    "header": "Franchise",
+    "contain": "Because we aim to meet and exceed quality standards, because we firmly believe that excellence can be cultivated through dedication and commitment to our customers."
+  },
+  "Integrity": {
+    "header": " Integrity",
+    "contain": "Because we seek to build and preserve our society, raise its level of well-being, enhance the principles of trust and honesty, and support teamwork among individuals ."
+  },
+  "Professionalism": {
+    "header": " Professionalism and Accuracy",
+    "contain": "Because we view professionalism as our endurance factor in the dynamic business world, and because we believe that attitudes and behavior are valuable to our clients ."
+  },
+  "Commitment": {
+    "header": " Commitment",
+    "contain": "We fulfill our obligations to our customers, shareholders and each other and take responsibility for our actions ."
+  },
+  "Quality": {
+    "header": " Quality policy",
+    "contain": "Quality is not a final result, but rather an essential part of every stage of the project. The quality control process is used starting from the planning stage of each project. Supervision, inspection, testing and documentation are carried out to ensure that work is progressing in the required manner and level, adherence to the work plan and adherence to the controls regulating the project. Project progress ."
+  },
+  "Safety": {
+    "header": " Safety policy",
+    "contain": "There is no job or service that is so important or urgent that it cannot be performed in a safe manner. Our company maintains an unwavering commitment to the safety of our employees and partners by implementing our corporate safety program, detailed site-specific safety plans, extensive training, and planning and personal accountability.",
+    "contain2": "Our commitment to an 'accident-free' safety culture extends beyond the company's employees to include all of our partners who work on the company's projects. Our primary concern is sending our employees home and to their loved ones safely every day."
+  },
+  "SafetyandQuality": {
+    "header": "Quality and Safety policy"
+  },
+  "head_about": {
+    "head": "Information about the company",
+    "contain": "This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions."
+  },
+  "head_project": {
+    "head": "Projects",
+    "contain": "Because we view professionalism as our endurance factor in the dynamic business world, and because we believe that attitudes and behavior are valuable to our clients .",
+    "btn_pro": "Show projects"
+  },
+  "head_Services": {
+    "head": "Services",
+    "contain": "Because we seek to build and preserve our society, raise its level of well-being, enhance the principles of trust and honesty, and support teamwork among individuals .",
+    "btn_pro": "Show services"
+  },
+  "Copyright": {
+    "head": "Rwoodco - All rights reserved 2024 ©"
+  },
+  "Section_projects": {
+    "head": "Projects",
+    "contain": "This organization has grown as a family of hard-working individuals into a world-class construction company by exploring new markets and partnerships. The organization transformed into a company in 2023 with the same passion, but with greater goals and higher ambitions."
+  },
+  "projects_card": {
+    "project_1": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Finishing the Jeddah Private Banking Branch - The Saudi Investment Bank"
     },
-    "project_7":{
-      "titleProject":"The Saudi Investment Bank",
-      "caption":"Replace all security doors and emergency exits in all branches and buildings of the Saudi Investment Bank"
-
+    "project_2": {
+      "titleProject": "Bank of the country",
+      "caption": "Implementing screen decor in the main tower - Bank Al Bilad"
+    },
+    "project_3": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Modification work at Jubail Branch - Saudi Investment Bank"
+    },
+    "project_4": {
+      "titleProject": "Mosque in Bisha",
+      "caption": "Establishing a mosque in Bisha"
+    },
+    "project_5": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Developing the main entrances to the general administration and branches - The Saudi Investment Bank"
+    },
+    "project_6": {
+      "titleProject": "International Medical Center in Jeddah",
+      "caption": "Finishing the International Medical Center in Jeddah"
+    },
+    "project_7": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Replace all security doors and emergency exits in all branches and buildings of the Saudi Investment Bank"
+    },
+    "project_8": {
+      "titleProject": "Malaz Branch - The Saudi Investment Bank",
+      "caption": "Establishing a data room, transporting and equipping equipment - Malaz Branch, The Saudi Investment Bank"
+    },
+    "project_9": {
+      "titleProject": "Rawda branch in Riyadh, The Saudi Investment Bank",
+      "caption": "Implementation of awnings and car parks - Al Rawdah Branch in Riyadh, The Saudi Investment Bank"
+    },
+    "project_10": {
+      "titleProject": "Oryx Tower",
+      "caption": "Implementing all civil defense electrical and mechanical requirements and final delivery of Oryx Tower"
+    },
+    "project_11": {
+      "titleProject": "Aqiq Tower",
+      "caption": "Implementing all civil defense electrical and mechanical requirements and final delivery of Aqiq Tower"
+    },
+    "project_12": {
+      "titleProject": "Villa - Al Nakheel District",
+      "caption": "Implementation of a private residential villa - Al-Nakhil District "
+    },
+    "project_13": {
+      "titleProject": "Implementing stairs and emergency exits",
+      "caption": "Implementing stairs and emergency exits"
+    },
+    "project_14": {
+      "titleProject": "Section of the Diriyah Tunnel Project",
+      "caption": "Section of the Diriyah Tunnel Project"
+    },
+    "project_15": {
+      "titleProject": "Aqiq and Oryx Towers",
+      "caption": "A project to implement painting and cladding works in Al Aqiq and Oryx Towers"
+    },
+    "project_16": {
+      "titleProject": "Bank Al-Bilad",
+      "caption": "Renovation project of Al-Takhassusi branch - Bank Al-Bilad"
+    },
+    "project_17": {
+      "titleProject": "Bank Al-Bilad",
+      "caption": "A project to implement fences with advertising banners and lighting - Bank Al Bilad"
     }
     ,
-    
-    "project_8":{
-      "titleProject":"Malaz Branch - The Saudi Investment Bank",
-      "caption":"Establishing a data room, transporting and equipping equipment - Malaz Branch, The Saudi Investment Bank"
-
+    "project_18": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Khamis Mushayt Branch Amendments Project - The Saudi Investment Bank"
     }
     ,
-    
-    "project_9":{
-      "titleProject":"Rawda branch in Riyadh, The Saudi Investment Bank",
-      "caption":"Implementation of awnings and car parks - Al Rawdah Branch in Riyadh, The Saudi Investment Bank"
-
+    "project_19": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Various ATM implementation projects - The Saudi Investment Bank"
     }
     ,
-    
-    "project_10":{
-      "titleProject":"Oryx Tower",
-      "caption":"Implementing all civil defense electrical and mechanical requirements and final delivery of Oryx Tower"
-
+    "project_20": {
+      "titleProject": "",
+      "caption": ""
     }
     ,
-    
-    "project_11":{
-      "titleProject":"Agate Tower",
-      "caption":"Implementing all civil defense electrical and mechanical requirements and final delivery of Agate Tower"
-
-
-    }
-    ,
-    
-    "project_12":{
-      "titleProject":"Villa - Al Nakheel District",
-      "caption":"Implementation of a private residential villa - Al-Nakhil District "
-
-    }
-    ,
-    
-    "project_13":{
-      "titleProject":"",
-      "caption":""
-
-    }
-    ,
-    
-    "project_14":{
-      "titleProject":"",
-      "caption":""
-
-    }
-    ,
-    
-    "project_15":{
-      "titleProject":"",
-      "caption":""
-
+    "project_21": {
+      "titleProject": "",
+      "caption": ""
     }
   }
 }
