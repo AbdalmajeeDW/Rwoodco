@@ -74,14 +74,20 @@ a {
   direction: rtl;
 }
 .ar .nav {
-  left: 0;
+  right: 0;
+}
+.ar .header .container .container_lang .select_lang {
+  direction: ltr;
 }
 
 .en {
   direction: ltr;
 }
 .en .nav {
-  right: 0;
+  left: 0;
+}
+.en .header .container .container_lang .select_lang {
+  direction: rtl;
 }
 
 .v-btn__content {
@@ -124,7 +130,9 @@ html {
 }
 .header .container .logo img {
   margin-top: 15px;
-  width: 70px;
+  margin-bottom: 15px;
+  width: 55px;
+  height: 55px;
 }
 .header .container .links {
   display: flex;
@@ -154,7 +162,7 @@ html {
      -moz-user-select: none;
           user-select: none;
   font-size: 14px;
-  width: 60px;
+  width: 85px;
   height: 30px;
   border: 1px solid rgb(163, 14, 34);
   display: flex;
@@ -170,8 +178,8 @@ html {
   flex-direction: column;
   position: absolute;
   gap: 10px;
-  width: 60px;
-  align-items: center;
+  width: 85px;
+  align-items: flex-end;
   margin-top: 5px;
   background-color: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: blur(3px);
@@ -179,6 +187,7 @@ html {
   box-shadow: 1px 1px 6px -3px black;
   border-radius: 5px;
   padding: 10px;
+  z-index: 51;
 }
 .header .container .container_lang .select_lang li {
   list-style: none;
@@ -233,8 +242,8 @@ html {
     box-shadow: 1px 1px 6px -3px rgb(163, 14, 34);
     z-index: 50;
     background-color: rgba(255, 255, 255, 0.4);
-    -webkit-backdrop-filter: blur(2px);
-            backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
     position: fixed;
   }
   .header .nav .links {
@@ -242,7 +251,7 @@ html {
     align-items: center;
     flex-direction: column;
     gap: 45px;
-    margin-top: 75px;
+    margin-top: 55px;
   }
   .header .nav .links li {
     list-style: none;
@@ -271,8 +280,8 @@ html {
     box-shadow: 1px 1px 6px -3px rgb(163, 14, 34);
     z-index: 50;
     background-color: rgba(255, 255, 255, 0.4);
-    -webkit-backdrop-filter: blur(2px);
-            backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
     position: fixed;
   }
   .nav .links {
@@ -280,7 +289,7 @@ html {
     align-items: center;
     flex-direction: column;
     gap: 45px;
-    margin-top: 75px;
+    margin-top: 55px;
   }
   .nav .links li {
     list-style: none;

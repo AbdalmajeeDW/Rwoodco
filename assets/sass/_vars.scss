@@ -76,13 +76,23 @@ a{
 .ar{
     direction: rtl;
     .nav{
-        left: 0;
+        right: 0;
+    }
+    .header .container .container_lang .select_lang{
+      direction: ltr;
+
+
     }
 }
 .en{
     direction: ltr;
     .nav{
-        right: 0;
+        left: 0;
+    }
+    .header .container .container_lang .select_lang{
+      direction: rtl;
+
+
     }
 }
 .more_about{

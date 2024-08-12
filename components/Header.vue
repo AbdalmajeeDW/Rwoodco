@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo">
         <NuxtLink to="/">
-          <img src="/logo.png" alt="logo" style="width: 70px" />
+          <img src="/logo.png" alt="logo" />
         </NuxtLink>
       </div>
 
@@ -16,7 +16,9 @@
       </ul>
       <div class="container_lang">
         <div class="lang" @click="fixed = !fixed">
-          {{ $i18n.locale === "en" ? "EN" : "AR" }}
+          <p>
+            {{ $i18n.locale === "en" ? "English" : "العربية" }}
+          </p>
 
           <v-icon style="font-size: 17px; color: black">mdi-earth</v-icon>
         </div>
@@ -26,13 +28,13 @@
             <v-icon style="font-size: 17px; color: #a30e22">{{
               check && "mdi-check"
             }}</v-icon>
-            AR
+            {{ $i18n.locale === "ar" ? "العربية" : "Arabic" }}
           </li>
           <li @click="selectLan('en')">
             <v-icon style="font-size: 17px; color: #a30e22">{{
               !check && "mdi-check"
             }}</v-icon>
-            EN
+            {{ $i18n.locale === "ar" ? "الانكليزية" : "English" }}
           </li>
         </ul>
       </div>
@@ -44,14 +46,14 @@
               color: #a30e22;
               display: flex;
               justify-content: flex-end;
-              width: 70px;
+              width: 60px;
             "
             >mdi-format-align-left</v-icon
           >
         </div>
       </div>
     </div>
-    <div class="nav" v-if="drawer">
+    <div :class="$i18n.locale === 'en' ? 'nav left' : 'nav right'" v-if="drawer">
       <ul class="links" v-for="(item, i) in items" :key="i">
         <li @click="closeDrawer">
           <NuxtLink :to="item.url" :target="item.target">{{

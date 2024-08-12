@@ -12,7 +12,9 @@
     .logo {
       img {
         margin-top: 15px;
-        width: 70px;
+        margin-bottom: 15px;
+        width: 55px;
+        height: 55px;
       }
     }
     .links {
@@ -45,7 +47,7 @@
       .lang {
         user-select: none;
         font-size: 14px;
-        width: 60px;
+        width: 85px;
         height: 30px;
         border: 1px solid $primary-color;
         display: flex;
@@ -61,14 +63,15 @@
         flex-direction: column;
         position: absolute;
         gap: 10px;
-        width: 60px;
-        align-items: center;
+        width: 85px;
+        align-items: flex-end;
         margin-top: 5px;
         background-color: rgba(255, 255, 255, 0.6);
         backdrop-filter: blur(3px);
         box-shadow: 1px 1px 6px -3px black;
         border-radius: 5px;
         padding: 10px;
+        z-index: 51;
         li {
           list-style: none;
           cursor: pointer;
@@ -139,14 +142,14 @@
       box-shadow: 1px 1px 6px -3px $primary-color;
       z-index: 50;
       background-color: rgba(255, 255, 255, 0.4);
-      backdrop-filter: blur(2px);
+      backdrop-filter: blur(4px);
       position: fixed;
       .links {
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 45px;
-        margin-top: 75px;
+        margin-top: 55px;
         li {
           list-style: none;
           z-index: 50;
@@ -182,14 +185,14 @@
     box-shadow: 1px 1px 6px -3px $primary-color;
     z-index: 50;
     background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
     position: fixed;
     .links {
       display: flex;
       align-items: center;
       flex-direction: column;
       gap: 45px;
-      margin-top: 75px;
+      margin-top: 55px;
       li {
         list-style: none;
         z-index: 50;
