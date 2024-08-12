@@ -125,7 +125,6 @@ html {
 .header .container .logo img {
   margin-top: 15px;
   width: 70px;
-  height: 72px;
 }
 .header .container .links {
   display: flex;
@@ -665,6 +664,8 @@ html {
   box-shadow: 1px 1px 6px -3px black;
 }
 .con_footer .copyright {
+  background-color: rgb(163, 14, 34);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -672,6 +673,7 @@ html {
 }
 .con_footer .footer {
   height: 300px;
+  background-color: rgb(163, 14, 34);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -934,5 +936,54 @@ html {
     justify-items: center;
     gap: 40px;
     margin-top: 5rem;
+  }
+}
+.container .section_clients {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(298px, 1fr));
+  justify-items: center;
+  gap: 70px;
+  margin-top: 5rem;
+  align-items: center;
+}
+.container .section_clients .clients {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 768px) {
+  .container .section_clients {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    justify-items: center;
+    gap: 70px;
+    margin-top: 5rem;
+    align-items: center;
+  }
+  .container .section_clients .clients {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+}
+@media (max-width: 900px) {
+  .container .section_clients {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+    gap: 70px;
+    margin-top: 5rem;
+    align-items: center;
+  }
+  .container .section_clients .clients {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
 }/*# sourceMappingURL=main.min.css.map */

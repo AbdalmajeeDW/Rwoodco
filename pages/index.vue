@@ -170,6 +170,44 @@
         >
       </div>
     </div>
+
+    <!--  -->
+    <div class="container">
+      <div class="head_section">{{ $t(`Section_clients.head`) }}</div>
+
+      <div class="section_clients">
+        <div class="clients">
+          <img src="/logos/pngkey.png" width="200px" alt="" />
+        </div>
+        <div class="clients">
+          <img src="/logos/Bank_Albilad_logo.png" width="200px" alt="" />
+        </div>
+        <div class="clients">
+          <img src="/logos/The-Saudi-Investment-Bank.png" width="200px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- <div class="head_section">{{ $t(`Section_Services.head`) }}</div> -->
+      <div>
+        <!-- <h1>تواصل معنا</h1> -->
+        <!-- <form @submit.prevent="sendEmail">
+          <div>
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" v-model="form.name" required />
+          </div>
+          <div>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" v-model="form.email" required />
+          </div>
+          <div>
+            <label for="message">الرسالة:</label>
+            <textarea id="message" v-model="form.message" required></textarea>
+          </div>
+          <button type="submit">إرسال</button>
+        </form> -->
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -182,6 +220,11 @@ export default {
       widgets: false,
       arrayFilter: null,
       cat: null,
+      form: {
+        name: "",
+        email: "",
+        message: "",
+      },
       projects: [
         {
           id: "1",
@@ -451,6 +494,14 @@ export default {
     };
   },
   methods: {
+    // async sendEmail() {
+    //   try {
+    //     this.$axios.$post("/api/send-email", this.form);
+    //     alert("تم إرسال البريد الإلكتروني بنجاح!");
+    //   } catch (error) {
+    //     alert("حدث خطأ أثناء إرسال البريد الإلكتروني.");
+    //   }
+    // },
     clickCard(obj) {
       this.cat = obj;
       let n = this.cards.filter((e) => e.categorie === obj.categorie);

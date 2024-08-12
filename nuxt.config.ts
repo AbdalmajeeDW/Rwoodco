@@ -4,9 +4,12 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
-
+vueEmail:{
+autoImport:true
+},
   modules: [
     '@nuxtjs/i18n',
+  '@vue-email/nuxt',
     ['@nuxtjs/google-fonts', {
       families: {
         Roboto: true,
