@@ -102,7 +102,13 @@
         <img
           src="/logo.png"
           alt="logo"
-          style="width: 70px; margin-inline-end: 20px; margin-top: 10px"
+          style="
+            width: 55px;
+            height: 55px;
+            margin-bottom: 15px;
+            margin-inline-end: 20px;
+            margin-top: 10px;
+          "
         />
       </v-toolbar>
 
@@ -187,27 +193,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <!-- <div class="head_section">{{ $t(`Section_Services.head`) }}</div> -->
-      <div>
-        <!-- <h1>تواصل معنا</h1> -->
-        <!-- <form @submit.prevent="sendEmail">
-          <div>
-            <label for="name">الاسم:</label>
-            <input type="text" id="name" v-model="form.name" required />
-          </div>
-          <div>
-            <label for="email">البريد الإلكتروني:</label>
-            <input type="email" id="email" v-model="form.email" required />
-          </div>
-          <div>
-            <label for="message">الرسالة:</label>
-            <textarea id="message" v-model="form.message" required></textarea>
-          </div>
-          <button type="submit">إرسال</button>
-        </form> -->
-      </div>
-    </div>
+    <div class="container"></div>
   </div>
 </template>
 <script>

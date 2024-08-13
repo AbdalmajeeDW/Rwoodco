@@ -45,7 +45,13 @@
         <img
           src="/logo.png"
           alt="logo"
-          style="width: 70px; margin-inline-end: 20px; margin-top: 10px"
+          style="
+            width: 55px;
+            height: 55px;
+            margin-bottom: 15px;
+            margin-inline-end: 20px;
+            margin-top: 10px;
+          "
         />
       </v-toolbar>
 

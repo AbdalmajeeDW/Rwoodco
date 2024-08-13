@@ -46,7 +46,6 @@
               color: #a30e22;
               display: flex;
               justify-content: flex-end;
-              width: 60px;
             "
             >mdi-format-align-left</v-icon
           >

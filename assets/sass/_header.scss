@@ -47,14 +47,14 @@
       .lang {
         user-select: none;
         font-size: 14px;
-        width: 85px;
+        padding: 5px;
         height: 30px;
         border: 1px solid $primary-color;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 5px;
-        gap: 5px;
+        gap: 2px;
         cursor: pointer;
         transition-timing-function: linear;
       }
