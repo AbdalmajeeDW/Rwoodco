@@ -1,65 +1,122 @@
 <template>
-  <!-- <div class="con_footer">
+  <div>
     <div class="footer">
-      <div class="section_one">
-        <img src="/logo.png" width="150" alt="" />
-        <div class="icons">
-          <nuxt-link to="" class="insta"> <img src="/instagram.png" alt="" /></nuxt-link>
-          <nuxt-link to="">
-            <img src="/facebook.png" alt="" />
-          </nuxt-link>
-          <nuxt-link to="">
-            <img src="/tiktok.png" width="25" alt="" />
-          </nuxt-link>
+      <div class="container">
+        <div class="con_define">
+          <div class="define">
+            <img src="/888.png" width="200" />
+          </div>
+        </div>
+        <div class="services2">
+          <div class="title">{{ $t(`links.services`) }}</div>
+
+          <p>{{ $t(`Section_Services.Service1.head`) }}</p>
+          <p>{{ $t(`Section_Services.Service2.head`) }}</p>
+          <p>{{ $t(`Section_Services.Service3.head`) }}</p>
+          <p>{{ $t(`Section_Services.Service4.head`) }}</p>
+          <p>{{ $t(`Section_Services.Service5.head`) }}</p>
+        </div>
+        <div class="lin">
+          <div class="con_links">
+            <div class="title">{{ $t(`links.siteSeection`) }}</div>
+
+            <ul class="links" v-for="(item, i) in items" :key="i">
+              <li>
+                <NuxtLink :to="item.url" :target="item.target">{{
+                  $t(`links.${item.name}`)
+                }}</NuxtLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="con_info" id="contact">
+          <ul class="infoo">
+            <div class="title">{{ $t(`links.contact`) }}</div>
+
+            <li>
+              <div class="map">
+                <v-icon>mdi-map-marker-circle</v-icon>
+
+                <p style="line-height: 1.1">{{ $t(`locationFooter.location`) }}</p>
+              </div>
+            </li>
+            <li>
+              <div><v-icon>mdi-phone-classic</v-icon>+966 11250 0511</div>
+            </li>
+            <li>
+              <div>
+                <v-icon>mdi-gmail</v-icon>
+                Info@red-wood.site
+              </div>
+            </li>
+            <li>
+              <div><v-icon>mdi-cellphone</v-icon>+966 56859 4572</div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="copyright">{{ $t(`Copyright.head`) }}</div>
-  </div> -->
-  <div>
-    <!-- <div class="footer">
-      <div class="define">
-        <h1 class="title"><img src="/logo.png" width="200" /></h1>
-        <ul class="social-media">
-          <li>
-            <a href="https://www.instagram.com/ayoubouw"
-              ><span class="mdi mdi-instagram" style="color: #833ab4"></span
-            ></a>
-          </li>
-          <li>
-            <a href="https://facebook.com"
-              ><span id="face" class="mdi mdi-facebook" style="color: #4267b2"></span
-            ></a>
-          </li>
-          <li><span class="mdi mdi-gmail" style="color: #4267b2"></span></li>
-          <li>
-            <a href="https://wa.me/31647007700"
-              ><span class="mdi mdi-whatsapp" style="color: #25d366"></span
-            ></a>
-          </li>
-        </ul>
-      </div>
-      <ul class="links">
+    <div class="copyright">
+      <img src="/logoWhite.png" />
+
+      {{ $t(`Copyright.head`) }}
+      <ul class="social-media">
         <li>
-          <a href="/" aria-current="page" class="nuxt-link-exact-active nuxt-link-active"
-            >Home</a
-          >
+          <a href="#"
+            ><span class="mdi mdi-instagram" style="color: white; font-size: 22px"></span
+          ></a>
         </li>
-        <li><a href="/#about">Over Ons</a></li>
-        <li><a href="/#services">Diensten</a></li>
-        <li><a href="/#projects">Projecten</a></li>
-        <li><a href="/#PARTNERS">Galerij</a></li>
-        <li><a href="/#footer">Contact</a></li>
+        <li>
+          <a href="#"
+            ><span
+              id="face"
+              class="mdi mdi-facebook"
+              style="color: white; font-size: 22px"
+            ></span
+          ></a>
+        </li>
       </ul>
-      <ul class="infoo">
-        <li><p style="color: #5d8bb0 !important">Netherlands, Amsterdam</p></li>
-        <li><p style="color: #5d8bb0 !important">Telefoon: +31 647 007 700</p></li>
-        <li><p style="color: #5d8bb0 !important">Info@ayoubouw.nl</p></li>
-        <li><p style="color: #5d8bb0 !important">KVK: 83624384</p></li>
-      </ul>
-    </div> -->
+    </div>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      clipped: false,
+      drawer: false,
+      fixed: false,
+      check: false,
+      items: [
+        {
+          name: "home",
+          url: "/",
+        },
+        {
+          name: "about",
+          url: "/about",
+        },
+        {
+          name: "projects",
+          url: "/projects",
+        },
+        {
+          name: "services",
+          url: "/services",
+        },
+
+        {
+          name: "contact",
+          url: "",
+        },
+        {
+          name: "profile",
+          url: "/RWOODCO-PROFILE.pdf",
+          target: "_balnk",
+        },
+      ],
+    };
+  },
+};
 </script>

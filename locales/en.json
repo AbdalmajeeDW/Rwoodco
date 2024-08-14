@@ -5,8 +5,12 @@
     "profile": "Profile",
     "projects": "Projects",
     "services": "Services",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "siteSeection": "Site section"
+
   },
+  "locationFooter":{"location":"Riyadh-Al Yarmuk-Imam Saud Ibn Abdulaziz Road"},
+
   "aboutCompany": {
     "header": "Information about our company",
     "contain": "Our beginning in 2019 as Redwood Contracting Est"
