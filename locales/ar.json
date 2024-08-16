@@ -9,6 +9,9 @@
     "siteSeection": "أقسام الموقع"
 
   },
+  "Certificates":{
+    "certificates":"شهاداتنا"
+  },
   "locationFooter":{"location":"الرياض - اليرموك - شارع الامام سعود ابن عبد العزيز"},
   "aboutCompany": {
     "header": "معلومات عن شركتنا",

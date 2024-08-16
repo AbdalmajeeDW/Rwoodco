@@ -23,13 +23,13 @@ $button-color:red !important;
 }
 @font-face {
     font-family: 'first';
-    src: url('/public/fonts/ReadexPro-SemiBold.ttf') ;
-    font-weight: lighter;
+    src: url('/public/fonts/fontawesome-webfont.ttf') ;
+    font-weight: bold;
   
 }
 body{
-    // font-family: 'first' ;
-    // background-color: #eceaeafc;
+    font-family: 'first' ;
+    background-color: #eceaeafc;
 }
 .router-link-exact-active{
     color: $primary-color;
