@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "first";
-  src: url("/public/fonts/fontawesome-webfont.ttf");
+  src: url("/public/fonts/ReadexPro-Medium.ttf");
   font-weight: bold;
 }
 body {
@@ -200,7 +200,6 @@ html {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
   font-size: 13px;
 }
 .header .container .con_Icon {
@@ -783,6 +782,7 @@ html {
     padding-left: 60px;
     padding-right: 60px;
     margin-left: auto;
+    font-size: 14px;
     margin-right: auto;
   }
   .copyright img {
@@ -814,6 +814,9 @@ html {
   .footer .container .lin .con_links .links {
     list-style: none;
   }
+  .footer .container .lin .con_links .links li a {
+    font-size: 14px;
+  }
   .footer .container .con_info {
     display: flex;
     line-height: 3;
@@ -824,6 +827,12 @@ html {
     flex-direction: column;
     gap: 5px;
   }
+  .footer .container .con_info .infoo p {
+    font-size: 14px;
+  }
+  .footer .container .con_info .infoo li {
+    font-size: 14px;
+  }
   .footer .container .con_define .define .social-media {
     display: flex;
     gap: 10px;
@@ -833,6 +842,9 @@ html {
     display: flex;
     flex-direction: column;
     line-height: 2;
+  }
+  .footer .container .services2 p {
+    font-size: 14px;
   }
 }
 .container .sections1 {
@@ -1125,5 +1137,117 @@ html {
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+  }
+}
+.container .con_contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+.container .con_contact .locationForMap {
+  height: 500px;
+  width: 100%;
+}
+.container .con_contact .locationForMap iframe {
+  height: 100%;
+  width: 100%;
+}
+.container .con_contact .con_info {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  line-height: 3;
+}
+.container .con_contact .con_info .infoo {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.container .con_contact .con_info .infoo li div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.container .con_contact .con_info .infoo li .map {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .container .con_contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+  .container .con_contact .locationForMap {
+    height: 400px;
+    width: 100%;
+  }
+  .container .con_contact .locationForMap iframe {
+    height: 100%;
+    width: 100%;
+  }
+  .container .con_contact .con_info {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    line-height: 3;
+  }
+  .container .con_contact .con_info .infoo {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  .container .con_contact .con_info .infoo li {
+    font-size: 13px;
+  }
+  .container .con_contact .con_info .infoo li div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .container .con_contact .con_info .infoo li .map {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .container .con_contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .container .con_contact .locationForMap {
+    height: 300px;
+    width: 100%;
+  }
+  .container .con_contact .locationForMap iframe {
+    height: 100%;
+    width: 100%;
+  }
+  .container .con_contact .con_info {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    line-height: 3;
+  }
+  .container .con_contact .con_info .infoo {
+    list-style: none;
+    display: flex;
+  }
+  .container .con_contact .con_info .infoo li {
+    font-size: 13px;
+  }
+  .container .con_contact .con_info .infoo li div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .container .con_contact .con_info .infoo li .map {
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
 }/*# sourceMappingURL=main.min.css.map */

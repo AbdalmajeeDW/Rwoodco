@@ -1,0 +1,130 @@
+.container{
+    .con_contact{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        // gap: 40px;       
+         .locationForMap{
+            height: 500px;
+            width: 100%;
+            iframe{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .con_info {
+            display: flex;
+            align-items: center;
+            margin-top: 35px;
+            line-height: 3;
+      
+            .infoo {
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+      
+              li {
+                div {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                }
+                .map{
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                }
+              }
+            }
+          }
+    }
+
+}
+@media (max-width: 768px) {
+    .container{
+        .con_contact{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+             .locationForMap{
+                height: 400px;
+                width: 100%;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .con_info {
+                display: flex;
+                align-items: center;
+                margin-top: 35px;
+                line-height: 3;
+          
+                .infoo {
+                  list-style: none;
+                  display: flex;
+                  flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+          
+                  li {
+                    font-size: 13px;
+                    div {
+                      display: flex;
+                      align-items: center;
+                      gap: 5px;
+                    }
+                    .map{
+                      display: flex;
+                      align-items: center;
+                      gap: 5px;
+                    }
+                  }
+                }
+              }
+        }
+    
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        .con_contact{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+             .locationForMap{
+                height: 300px;
+                width: 100%;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .con_info {
+                display: flex;
+                align-items: center;
+                margin-top: 35px;
+                line-height: 3;
+          
+                .infoo {
+                  list-style: none;
+                  display: flex;
+                 
+          
+                  li {
+                    font-size: 13px;
+                    div {
+                      display: flex;
+                      align-items: center;
+                      gap: 5px;
+                    }
+                    .map{
+                      display: flex;
+                      align-items: center;
+                      gap: 5px;
+                    }
+                  }
+                }
+              }
+        }
+    
+    }
+}

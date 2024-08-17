@@ -92,7 +92,7 @@ export default {
 
         {
           name: "contact",
-          url: "#contact",
+          url: "/contact",
         },
         {
           name: "profile",
