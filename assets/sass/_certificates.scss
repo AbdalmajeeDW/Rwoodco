@@ -1,0 +1,19 @@
+.container {
+  .section_certificates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 60px;
+    margin-top: 5rem;
+    .certificates {
+      .con_img_certificates {
+        width: 100%;
+        img {
+          width: 100%;
+          height: 300px;
+          border-radius: 15px;
+          box-shadow: 1px 1px 6px -3px black;
+        }
+      }
+    }
+  }
+}

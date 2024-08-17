@@ -178,22 +178,32 @@
     </div>
     <!--  -->
 
-    <!-- <div class="container">
+    <div class="container">
       <div class="head_section">{{ $t(`Certificates.certificates`) }}</div>
 
-      <div class="section_services">
-        <div class="service">
-          <div class="con">
-            <img src="/Certificates/أنشطة إنكليزي.jpg" alt="" />
+      <div class="section_certificates">
+        <div class="certificates">
+          <div class="con_img_certificates">
+            <img src="/Certificates/1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="certificates">
+          <div class="con_img_certificates">
+            <img src="/Certificates/2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="certificates">
+          <div class="con_img_certificates">
+            <img src="/Certificates/3.jpg" alt="" />
           </div>
         </div>
       </div>
       <div class="more">
-        <NuxtLink to="/services" class="routeMore"
+        <NuxtLink to="/certificates" class="routeMore"
           ><v-btn class="more">{{ $t(`about.btnMore`) }} </v-btn></NuxtLink
         >
       </div>
-    </div> -->
+    </div>
 
     <!--  -->
     <div class="container">

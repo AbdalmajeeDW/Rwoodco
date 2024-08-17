@@ -9,6 +9,11 @@
     "siteSeection": "Site section"
 
   },
+  "head_certificates": {
+    "head": "Certificates",
+    "contain": "",
+    "btn_Cer": "Show certificates "
+  },
   "Certificates":{
     "certificates":" Our certificates"
   },
