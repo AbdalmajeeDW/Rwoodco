@@ -58,23 +58,40 @@
       </div>
     </div>
     <div class="copyright">
-      <img src="/logoWhite.png" />
+      <img src="/logoWhite.png" class="copyrightImg" />
 
       {{ $t(`Copyright.head`) }}
       <ul class="social-media">
         <li>
-          <a href="#"
-            ><span class="mdi mdi-instagram" style="color: white; font-size: 22px"></span
-          ></a>
+          <a href="https://www.instagram.com/rwoodco_?igsh=MTV0Y2N3d2l1b2kxcA==">
+            <span class="mdi mdi-instagram" style="color: white; font-size: 23px"></span>
+          </a>
         </li>
         <li>
-          <a href="#"
+          <a href="https://www.facebook.com/profile.php?id=61559025317626&mibextid=ZbWKwL"
             ><span
               id="face"
               class="mdi mdi-facebook"
-              style="color: white; font-size: 22px"
+              style="color: white; font-size: 23px"
             ></span
           ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.tiktok.com/@rwoodco3?fbclid=IwY2xjawEt1QJleHRuA2FlbQIxMAABHSsss6Bmbui9pqH0_BqaF6qX7seEUpGmEw4SYMQHmtBJYsfooFEk_CC8lg_aem_Ixu3-depxtf4yHR0OJsO_g"
+          >
+            <img
+              src="/888.svg"
+              alt=""
+              style="width: 21px; height: 21px; margin-top: 3px"
+            />
+          </a>
+        </li>
+
+        <li>
+          <a href="info@red-wood.site">
+            <v-icon style="color: white; font-size: 22px">mdi-gmail</v-icon>
+          </a>
         </li>
       </ul>
     </div>

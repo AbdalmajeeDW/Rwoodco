@@ -182,19 +182,14 @@
       <div class="head_section">{{ $t(`Certificates.certificates`) }}</div>
 
       <div class="section_certificates">
-        <div class="certificates">
-          <div class="con_img_certificates">
-            <img src="/Certificates/1.jpg" alt="" />
-          </div>
-        </div>
-        <div class="certificates">
-          <div class="con_img_certificates">
-            <img src="/Certificates/2.jpg" alt="" />
-          </div>
-        </div>
-        <div class="certificates">
-          <div class="con_img_certificates">
-            <img src="/Certificates/3.jpg" alt="" />
+        <div
+          class="certificates"
+          v-for="(item, i) in certificates"
+          :key="i"
+          @click="dialog1 = !dialog1"
+        >
+          <div class="con_img_certificates" @click="clickCertificates(item)">
+            <img :src="item.url" alt="" />
           </div>
         </div>
       </div>
@@ -204,7 +199,41 @@
         >
       </div>
     </div>
+    <v-dialog
+      v-model="dialog1"
+      transition="dialog-bottom-transition"
+      fullscreen
+      :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
+    >
+      <v-toolbar>
+        <v-btn icon="mdi-close" @click="dialog1 = false"></v-btn>
 
+        <v-toolbar-title></v-toolbar-title>
+        <img
+          src="/logo.png"
+          alt="logo"
+          style="
+            width: 55px;
+            height: 55px;
+            margin-bottom: 15px;
+            margin-inline-end: 20px;
+            margin-top: 10px;
+          "
+        />
+      </v-toolbar>
+
+      <v-card>
+        <div class="">
+          <div v-for="(item, i) in arrayFilter" :key="i">
+            <img
+              :src="item.url"
+              alt=""
+              style="width: 100%; height: 100%; margin-top: 15px"
+            />
+          </div>
+        </div>
+      </v-card>
+    </v-dialog>
     <!--  -->
     <div class="container">
       <div class="head_section">{{ $t(`Section_clients.head`) }}</div>
@@ -245,12 +274,31 @@ export default {
       },
       projects: project_array,
       cards: cards,
+      certificates: [
+        {
+          id: "1",
+          url: "/Certificates/1.jpg",
+        },
+        {
+          id: "2",
+          url: "/Certificates/2.jpg",
+        },
+        {
+          id: "3",
+          url: "/Certificates/3.jpg",
+        },
+      ],
     };
   },
   methods: {
     clickCard(obj) {
       this.cat = obj;
       let n = this.cards.filter((e) => e.categorie === obj.categorie);
+      this.arrayFilter = n;
+    },
+    clickCertificates(obj) {
+      this.cat = obj;
+      let n = this.certificates.filter((e) => e.id === obj.id);
       this.arrayFilter = n;
     },
     isOpen() {
