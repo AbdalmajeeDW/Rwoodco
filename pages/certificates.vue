@@ -7,13 +7,13 @@
           {{ $t(`head_about.contain`) }}
         </p>
         <v-btn class="more_head"
-          ><NuxtLink to="#Projects" class="routeMore2">{{
+          ><NuxtLink to="#certificates" class="routeMore2">{{
             $t(`head_certificates.btn_Cer`)
           }}</NuxtLink></v-btn
         >
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="certificates">
       <div class="section_certificates">
         <div
           class="certificates"

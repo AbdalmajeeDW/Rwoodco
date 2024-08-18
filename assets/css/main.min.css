@@ -120,7 +120,7 @@ html {
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(215, 214, 214, 0.4);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   position: fixed;
@@ -146,6 +146,44 @@ html {
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.8s ease-in-out;
+}
+.header .container .links .sub a:hover {
+  color: rgb(163, 14, 34);
+}
+.header .container .links .sub .iconSub {
+  color: black;
+}
+.header .container .links .sub .showSub {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  box-shadow: 1px 1px 6px -3px black;
+  border-radius: 5px;
+  padding-top: 5px;
+  z-index: 51;
+  width: 100%;
+  height: 30px;
+}
+.header .container .links .sub .showSub li a {
+  padding: 15px;
+  font-size: 13px;
+}
+.header .container .links .sub .showSub:hover {
+  display: flex;
+}
+.header .container .links .sub:hover {
+  transition: 0.5s;
+  color: rgb(163, 14, 34);
+}
+.header .container .links .sub:hover .iconSub {
+  color: rgb(163, 14, 34);
+}
+.header .container .links .sub:hover .showSub {
+  display: flex;
 }
 .header .container .links .links.appear {
   opacity: 1;
@@ -177,7 +215,7 @@ html {
   gap: 2px;
   cursor: pointer;
   transition-timing-function: linear;
-  width: 74px;
+  width: 77px;
 }
 .header .container .container_lang .select_lang {
   display: flex;
@@ -241,15 +279,54 @@ html {
     cursor: pointer;
   }
   .header .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     height: 100vh;
     width: 175px;
     transition: width 2s;
     box-shadow: 1px 1px 6px -3px rgb(163, 14, 34);
     z-index: 50;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(215, 214, 214, 0.4);
     -webkit-backdrop-filter: blur(7px);
             backdrop-filter: blur(7px);
     position: fixed;
+  }
+  .header .nav .sub {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .header .nav .sub a:hover {
+    color: rgb(163, 14, 34);
+  }
+  .header .nav .sub .iconSub {
+    color: black;
+  }
+  .header .nav .sub .showSub {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    z-index: 51;
+    height: 30px;
+  }
+  .header .nav .sub .showSub li a {
+    padding: 15px;
+  }
+  .header .nav .sub .showSub:hover {
+    display: flex;
+  }
+  .header .nav .sub:hover {
+    transition: 0.5s;
+    color: rgb(163, 14, 34);
+  }
+  .header .nav .sub:hover .iconSub {
+    color: rgb(163, 14, 34);
+  }
+  .header .nav .sub:hover .showSub {
+    display: flex;
   }
   .header .nav .links {
     display: flex;
@@ -261,6 +338,8 @@ html {
   .header .nav .links li {
     list-style: none;
     z-index: 50;
+    margin-right: 15px;
+    margin-left: 15px;
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
@@ -279,12 +358,14 @@ html {
     font-size: 14px;
   }
   .nav {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 175px;
     transition: 2s;
     box-shadow: 1px 1px 6px -3px rgb(163, 14, 34);
     z-index: 50;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(215, 214, 214, 0.4);
     -webkit-backdrop-filter: blur(7px);
             backdrop-filter: blur(7px);
     position: fixed;
@@ -297,6 +378,8 @@ html {
     margin-top: 55px;
   }
   .nav .links li {
+    margin-right: 15px;
+    margin-left: 15px;
     list-style: none;
     z-index: 50;
     -webkit-user-select: none;
@@ -833,6 +916,9 @@ html {
   .footer .container .con_info .infoo li {
     font-size: 14px;
   }
+  .footer .container .con_define .define img {
+    width: 150px;
+  }
   .footer .container .con_define .define .social-media {
     display: flex;
     gap: 10px;
@@ -862,7 +948,7 @@ html {
 .container .sections1 .card .details {
   position: absolute;
   z-index: 40;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(215, 214, 214, 0.4);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   cursor: pointer;
@@ -897,7 +983,7 @@ html {
   text-wrap: wrap;
   font-size: 14px;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(215, 214, 214, 0.4);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   opacity: 0;

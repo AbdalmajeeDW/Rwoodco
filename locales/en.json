@@ -6,7 +6,9 @@
     "projects": "Projects",
     "services": "Services",
     "contact": "Contact Us",
-    "siteSeection": "Site section"
+    "siteSeection": "Site section",
+    "certificates":"Certificates"
+
 
   },
   "head_certificates": {

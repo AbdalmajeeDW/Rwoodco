@@ -6,9 +6,11 @@
     "projects": "مشاريعنا",
     "services": "خدماتنا",
     "contact": "اتصل بنا",
-    "siteSeection": "أقسام الموقع"
+    "siteSeection": "أقسام الموقع",
+    "certificates":"الشهادات"
 
   },
+
   "Certificates":{
     "certificates":"شهاداتنا"
   },
@@ -91,7 +93,7 @@
   "head_certificates": {
     "head": "شهاداتنا",
     "contain": "لأننا ننظر إلى الاحتراف كمعامل التحمل لدينا في أعمال العالم الديناميكية,ولأننا نؤمن أن مواقف والسلوك ذات قيمة لعملائنا",
-    "btn_pro": "عرض الشهادات"
+    "btn_Cer": "عرض الشهادات"
   },
   "head_Services": {
     "head": "خدماتنا",

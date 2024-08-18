@@ -83,16 +83,16 @@
             <img
               src="/888.svg"
               alt=""
-              style="width: 21px; height: 21px; margin-top: 3px"
+              style="width: 21px; height: 21px; margin-top: 4px"
             />
           </a>
         </li>
-
+        <!-- 
         <li>
           <a href="info@red-wood.site">
             <v-icon style="color: white; font-size: 22px">mdi-gmail</v-icon>
           </a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>

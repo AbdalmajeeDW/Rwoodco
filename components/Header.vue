@@ -8,11 +8,24 @@
       </div>
 
       <ul class="links" v-for="(item, i) in items" :key="i">
-        <li>
+        <li v-if="item.name != 'about'">
           <NuxtLink :to="item.url" :target="item.target">{{
             $t(`links.${item.name}`)
           }}</NuxtLink>
         </li>
+        <ul v-else class="sub">
+          <NuxtLink :to="item.url" :target="item.target">
+            {{ $t(`links.${item.name}`) }}
+          </NuxtLink>
+          <v-icon class="iconSub" @click="sub = !sub">mdi-chevron-down</v-icon>
+          <ul class="showSub">
+            <li>
+              <NuxtLink :to="item.sub.url" :target="item.target">
+                {{ $t(`links.certificates`) }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </ul>
       </ul>
       <div class="container_lang">
         <div class="lang" @click="fixed = !fixed">
@@ -54,11 +67,24 @@
     </div>
     <div :class="$i18n.locale === 'en' ? 'nav left' : 'nav right'" v-if="drawer">
       <ul class="links" v-for="(item, i) in items" :key="i">
-        <li @click="closeDrawer">
+        <li @click="closeDrawer" v-if="item.name != 'about'">
           <NuxtLink :to="item.url" :target="item.target">{{
             $t(`links.${item.name}`)
           }}</NuxtLink>
         </li>
+        <ul v-else class="sub">
+          <NuxtLink :to="item.url" :target="item.target">
+            {{ $t(`links.${item.name}`) }}
+          </NuxtLink>
+          <v-icon class="iconSub" @click="sub = !sub">mdi-chevron-down</v-icon>
+          <ul class="showSub">
+            <li>
+              <NuxtLink :to="item.sub.url" :target="item.target">
+                {{ $t(`links.certificates`) }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </ul>
       </ul>
     </div>
   </div>
@@ -72,6 +98,7 @@ export default {
       drawer: false,
       fixed: false,
       check: false,
+      sub: false,
       items: [
         {
           name: "home",
@@ -80,6 +107,7 @@ export default {
         {
           name: "about",
           url: "/about",
+          sub: { name: "certificates", url: "/certificates" },
         },
         {
           name: "projects",

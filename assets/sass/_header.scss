@@ -1,5 +1,5 @@
 .header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(215, 214, 214, 0.4);
   backdrop-filter: blur(2px);
   position: fixed;
   z-index: 60;
@@ -24,10 +24,55 @@
       opacity: 0;
       transform: translateY(20px);
       transition: all 0.8s ease-in-out;
+      .sub {
+        a {
+          &:hover {
+            color: $primary-color;
+          }
+        }
+        .iconSub {
+          color: black;
+        }
+        .showSub {
+          display: none;
+          flex-direction: column;
+          position: absolute;
+          // top: 30px;
+          gap: 10px;
+          background-color: rgba(255, 255, 255, 0.6);
+          backdrop-filter: blur(3px);
+          box-shadow: 1px 1px 6px -3px black;
+          border-radius: 5px;
+          padding-top: 5px;
+          z-index: 51;
+          width: 100%;
+          height: 30px;
+          li {
+            a {
+              padding: 15px;
+              font-size: 13px;
+            }
+          }
+          &:hover {
+            display: flex;
+          }
+        }
+        &:hover {
+          transition: 0.5s;
+          .iconSub {
+            color: $primary-color;
+          }
+          color: $primary-color;
+          .showSub {
+            display: flex;
+          }
+        }
+      }
       .links.appear {
         opacity: 1;
         transform: translateY(0);
       }
+
       li {
         list-style: none;
         a {
@@ -57,7 +102,7 @@
         gap: 2px;
         cursor: pointer;
         transition-timing-function: linear;
-        width: 74px;
+        width: 77px;
       }
       .select_lang {
         display: flex;
@@ -78,7 +123,7 @@
           cursor: pointer;
           display: flex;
           align-items: center;
-         
+
           font-size: 13px;
         }
       }
@@ -96,11 +141,11 @@
     }
   }
 
-//   .links {
-//     opacity: 0;
-//     transform: translateY(20px);
-//     transition: all 0.8s ease-in-out;
-//   }
+  //   .links {
+  //     opacity: 0;
+  //     transform: translateY(20px);
+  //     transition: all 0.8s ease-in-out;
+  //   }
 
   .links.appear {
     opacity: 1;
@@ -137,12 +182,58 @@
       }
     }
     .nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .sub {
+        margin-right: 15px;
+        margin-left: 15px;
+        a {
+          &:hover {
+            color: $primary-color;
+          }
+        }
+        .iconSub {
+          color: black;
+        }
+        .showSub {
+          display: none;
+          flex-direction: column;
+          position: absolute;
+          gap: 10px;
+          // box-shadow: 1px 1px 6px -3px black;
+          border-radius: 5px;
+          padding-top: 5px;
+          z-index: 51;
+          height: 30px;
+          li {
+       
+            a {
+           
+              padding: 15px;
+            }
+          }
+          &:hover {
+            display: flex;
+          }
+        }
+        &:hover {
+          transition: 0.5s;
+          .iconSub {
+            color: $primary-color;
+          }
+          color: $primary-color;
+          .showSub {
+            display: flex;
+          }
+        }
+      }
       height: 100vh;
       width: 175px;
       transition: width 2s;
       box-shadow: 1px 1px 6px -3px $primary-color;
       z-index: 50;
-      background-color: rgba(255, 255, 255, 0.4);
+      background-color: rgba(215, 214, 214, 0.4);
       backdrop-filter: blur(7px);
       position: fixed;
       .links {
@@ -154,6 +245,8 @@
         li {
           list-style: none;
           z-index: 50;
+          margin-right: 15px;
+          margin-left: 15px;
           user-select: none;
           a {
             &:hover {
@@ -180,12 +273,14 @@
   }
 
   .nav {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 175px;
     transition: 2s;
     box-shadow: 1px 1px 6px -3px $primary-color;
     z-index: 50;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(215, 214, 214, 0.4);
     backdrop-filter: blur(7px);
     position: fixed;
     .links {
@@ -195,6 +290,8 @@
       gap: 45px;
       margin-top: 55px;
       li {
+        margin-right: 15px;
+        margin-left: 15px;
         list-style: none;
         z-index: 50;
         user-select: none;
