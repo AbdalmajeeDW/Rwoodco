@@ -74,12 +74,12 @@
           }}</NuxtLink>
         </li>
         <ul v-else class="sub">
-          <NuxtLink :to="item.url" :target="item.target">
+          <NuxtLink :to="item.url" :target="item.target" @click="closeDrawer">
             {{ $t(`links.${item.name}`) }}
           </NuxtLink>
           <v-icon class="iconSub" @click="sub = !sub">mdi-chevron-down</v-icon>
           <ul class="showSub">
-            <li class="linkeSub">
+            <li @click="closeDrawer" class="linkeSub">
               <NuxtLink :to="item.sub.url" :target="item.target">
                 {{ $t(`links.certificates`) }}
               </NuxtLink>
