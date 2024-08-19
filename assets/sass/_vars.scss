@@ -81,6 +81,14 @@ a{
     direction: rtl;
     .nav{
         right: 0;
+        .sub {
+          .showSub {
+       
+            right: 0;
+         
+          }
+         
+        }
     }
     .header .container .container_lang .select_lang{
       direction: ltr;
@@ -92,6 +100,14 @@ a{
     direction: ltr;
     .nav{
         left: 0;
+        .sub {
+          .showSub {
+       
+            left: 0;
+         
+          }
+         
+        }
     }
     .header .container .container_lang .select_lang{
       direction: rtl;

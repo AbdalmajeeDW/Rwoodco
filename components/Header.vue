@@ -18,6 +18,7 @@
             {{ $t(`links.${item.name}`) }}
           </NuxtLink>
           <v-icon class="iconSub" @click="sub = !sub">mdi-chevron-down</v-icon>
+          <div></div>
           <ul class="showSub">
             <li>
               <NuxtLink :to="item.sub.url" :target="item.target">
@@ -78,7 +79,7 @@
           </NuxtLink>
           <v-icon class="iconSub" @click="sub = !sub">mdi-chevron-down</v-icon>
           <ul class="showSub">
-            <li>
+            <li class="linkeSub">
               <NuxtLink :to="item.sub.url" :target="item.target">
                 {{ $t(`links.certificates`) }}
               </NuxtLink>
