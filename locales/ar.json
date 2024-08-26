@@ -14,7 +14,12 @@
   "Certificates":{
     "certificates":"شهاداتنا"
   },
-  "locationFooter":{"location":"الرياض - اليرموك - شارع الامام سعود بن عبد العزيز"},
+  "locationFooter":{"location":"الرياض - اليرموك - شارع الامام سعود بن عبد العزيز",
+
+ "numberOne":"   0511 11250 669+ ",
+  "numberTwo":"+966 56859 4572"
+
+},
   "aboutCompany": {
     "header": "معلومات عن شركتنا",
     "contain": "بدايتنا في عام 2019 كمؤسسة الخشب الأحمر للمقاولات"

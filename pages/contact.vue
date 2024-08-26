@@ -14,10 +14,10 @@
             <div><v-icon>mdi-phone-classic</v-icon>+966 11250 0511</div>
           </li>
           <li>
-            <div>
+            <a href="mailto:Info@red-wood.site">
               <v-icon>mdi-gmail</v-icon>
               Info@red-wood.site
-            </div>
+            </a>
           </li>
           <li>
             <div><v-icon>mdi-cellphone</v-icon>+966 56859 4572</div>

@@ -19,7 +19,10 @@
   "Certificates":{
     "certificates":" Our certificates"
   },
-  "locationFooter":{"location":"Riyadh-Al Yarmuk-Imam Saud Ibn Abdulaziz Road"},
+  "locationFooter":{"location":"Riyadh-Al Yarmuk-Imam Saud Ibn Abdulaziz Road",
+  "numberOne":"+966 11250 0511",
+  "numberTwo":"+966 56859 4572"
+},   
 
   "aboutCompany": {
     "header": "Information about our company",
