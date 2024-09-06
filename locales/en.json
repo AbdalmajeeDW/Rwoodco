@@ -117,27 +117,31 @@
   "Section_Services": {
     "head": "Our services",
     "Service1": {
-      "head":"Building construction",
+      "head":"General construction",
       "contain":"The company provides the implementation of all necessary items to create the building structure and follows up and provides all types of finishes"
     },
     "Service2": {
-      "head":"Expansion and restoration works",
+      "head":"Building improvement, renovation and rehabilitation",
       "contain":"We work to restore buildings and support all civil and electromechanical works to raise the efficiency of buildings and facilities"
     }
     ,
     "Service3": {
-      "head":"Implementing civil defense requirements",
+      "head":"Installations",
       "contain":"We provide customers with various fire prevention and fighting systems, such as installing fire pumps and all security and safety systems work and delivery to civil defense."
     }
     ,
     "Service4": {
-      "head":"Finishing and decoration works",
+      "head":"Finishing works",
       "contain":"We implement all types of finishes, the most precise, with the latest international tastes, with full commitment to the quality of finishing ."
     }
     ,
     "Service5": {
-      "head":" Preparing and developing the urban environment",
+      "head":" Building modifications or renovations",
       "contain":"Such as sidewalks, external paving, parking lots, and their awnings, taking into account the requirements of people with special needs and facilitating their movement, based on our social responsibility."
+    },
+    "Service6": {
+      "head":"Electromechanical works",
+      "contain":"Carrying out all electrical and mechanical works"
     }
   
   },

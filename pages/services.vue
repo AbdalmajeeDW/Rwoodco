@@ -78,7 +78,7 @@
         <div class="service">
           <div class="con">
             <div class="backIcon">
-              <v-icon> mdi-parking </v-icon>
+              <v-icon> mdi-restore </v-icon>
             </div>
           </div>
           <div class="caption">
@@ -87,6 +87,21 @@
             </div>
             <p>
               {{ $t(`Section_Services.Service5.contain`) }}
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="con">
+            <div class="backIcon">
+              <v-icon> mdi-parking </v-icon>
+            </div>
+          </div>
+          <div class="caption">
+            <div class="title_card_services">
+              {{ $t(`Section_Services.Service6.head`) }}
+            </div>
+            <p>
+              {{ $t(`Section_Services.Service6.contain`) }}
             </p>
           </div>
         </div>

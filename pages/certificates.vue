@@ -78,31 +78,12 @@ export default {
           id: "1",
           url: "/Certificates/1.jpg",
         },
-        {
-          id: "2",
-          url: "/Certificates/2.jpg",
-        },
-        {
-          id: "3",
-          url: "/Certificates/3.jpg",
-        },
-        {
-          id: "4",
-          url: "/Certificates/4.jpg",
-        },
 
         {
           id: "5",
           url: "/Certificates/5.jpg",
         },
-        {
-          id: "6",
-          url: "/Certificates/6.jpg",
-        },
-        {
-          id: "7",
-          url: "/Certificates/7.jpg",
-        },
+
         {
           id: "8",
           url: "/Certificates/8.jpg",

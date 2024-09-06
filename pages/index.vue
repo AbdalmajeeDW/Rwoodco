@@ -281,11 +281,11 @@ export default {
         },
         {
           id: "2",
-          url: "/Certificates/2.jpg",
+          url: "/Certificates/10.jpg",
         },
         {
           id: "3",
-          url: "/Certificates/3.jpg",
+          url: "/Certificates/11.jpg",
         },
       ],
     };
