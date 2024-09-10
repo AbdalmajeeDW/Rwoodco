@@ -93,7 +93,7 @@
         <div class="service">
           <div class="con">
             <div class="backIcon">
-              <v-icon> mdi-parking </v-icon>
+              <v-icon> mdi-screwdriver </v-icon>
             </div>
           </div>
           <div class="caption">

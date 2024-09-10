@@ -15,6 +15,7 @@
           <p>{{ $t(`Section_Services.Service3.head`) }}</p>
           <p>{{ $t(`Section_Services.Service4.head`) }}</p>
           <p>{{ $t(`Section_Services.Service5.head`) }}</p>
+          <p>{{ $t(`Section_Services.Service6.head`) }}</p>
         </div>
         <div class="lin">
           <div class="con_links">

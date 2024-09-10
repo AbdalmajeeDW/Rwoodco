@@ -11,7 +11,9 @@
             </div>
           </li>
           <li>
-            <div><v-icon>mdi-phone-classic</v-icon>+966 11250 0511</div>
+            <div>
+              <v-icon>mdi-phone-classic</v-icon>{{ $t(`locationFooter.numberOne`) }}
+            </div>
           </li>
           <li>
             <a href="mailto:Info@red-wood.site">
@@ -20,7 +22,7 @@
             </a>
           </li>
           <li>
-            <div><v-icon>mdi-cellphone</v-icon>+966 56859 4572</div>
+            <div><v-icon>mdi-cellphone</v-icon>{{ $t(`locationFooter.numberTwo`) }}</div>
           </li>
         </ul>
       </div>

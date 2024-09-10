@@ -51,7 +51,7 @@
       </v-toolbar>
 
       <v-card>
-        <div class="">
+        <div style="margin-bottom: 60px">
           <div v-for="(item, i) in arrayFilter" :key="i">
             <img
               :src="item.url"
@@ -81,9 +81,12 @@ export default {
 
         {
           id: "5",
+          url: "/Certificates/0.jpg",
+        },
+        {
+          id: "0",
           url: "/Certificates/5.jpg",
         },
-
         {
           id: "8",
           url: "/Certificates/8.jpg",

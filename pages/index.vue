@@ -17,15 +17,14 @@
           <div v-else><v-icon>mdi-arrow-left</v-icon></div>
         </v-btn>
       </template>
-      <v-carousel-item src="/bank_jdah2/1.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro1.jpeg" cover></v-carousel-item>
 
-      <v-carousel-item src="/bank_jbeel/3.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro2.jpeg" cover></v-carousel-item>
 
-      <v-carousel-item src="/public/2.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro3.jpeg" cover></v-carousel-item>
 
-      <v-carousel-item src="/public/3.jpeg" cover></v-carousel-item>
-      <v-carousel-item src="/public/4.jpeg" cover></v-carousel-item>
-      <v-carousel-item src="/public/5.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro4.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro5.jpeg" cover></v-carousel-item>
     </v-carousel>
     <div class="container">
       <div class="head_section">{{ $t(`aboutCompany.header`) }}</div>
@@ -223,7 +222,7 @@
       </v-toolbar>
 
       <v-card>
-        <div class="">
+        <div style="margin-bottom: 60px">
           <div v-for="(item, i) in arrayFilter" :key="i">
             <img
               :src="item.url"
