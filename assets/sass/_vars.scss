@@ -142,3 +142,6 @@ a{
   html{
     scroll-behavior: smooth;
   }
+  .v-img__img--contain{
+    object-fit: fill !important;
+  }

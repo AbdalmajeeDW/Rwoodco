@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-carousel hide-delimiters cycle interval="3000" height="640">
+    <v-carousel hide-delimiters cycle interval="3000" height="600">
       <template v-slot:next="{ props }">
         <div v-if="$i18n.locale == 'ar'">
           <v-btn v-bind="props" icon="mdi-arrow-left"></v-btn>
@@ -17,14 +17,14 @@
           <div v-else><v-icon>mdi-arrow-left</v-icon></div>
         </v-btn>
       </template>
-      <v-carousel-item src="/public/carousel/caro1.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro1.jpeg"></v-carousel-item>
 
-      <v-carousel-item src="/public/carousel/caro2.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro2.jpeg"></v-carousel-item>
 
-      <v-carousel-item src="/public/carousel/caro3.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro3.jpeg"></v-carousel-item>
 
-      <v-carousel-item src="/public/carousel/caro4.jpeg" cover></v-carousel-item>
-      <v-carousel-item src="/public/carousel/caro5.jpeg" cover></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro4.jpeg"></v-carousel-item>
+      <v-carousel-item src="/public/carousel/caro5.jpeg"></v-carousel-item>
     </v-carousel>
     <div class="container">
       <div class="head_section">{{ $t(`aboutCompany.header`) }}</div>

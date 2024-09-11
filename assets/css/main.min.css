@@ -125,6 +125,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.v-img__img--contain {
+  -o-object-fit: fill !important;
+     object-fit: fill !important;
+}
+
 .header {
   background-color: rgba(215, 214, 214, 0.4);
   -webkit-backdrop-filter: blur(2px);
