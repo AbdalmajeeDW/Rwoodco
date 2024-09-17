@@ -7,23 +7,21 @@
     "services": "Services",
     "contact": "Contact Us",
     "siteSeection": "Site section",
-    "certificates":"Certificates"
-
-
+    "certificates": "Certificates"
   },
   "head_certificates": {
     "head": "Certificates",
     "contain": "",
     "btn_Cer": "Show certificates "
   },
-  "Certificates":{
-    "certificates":" Our certificates"
+  "Certificates": {
+    "certificates": " Our certificates"
   },
-  "locationFooter":{"location":"Riyadh-Al Yarmuk-Imam Saud Ibn Abdulaziz Road",
-  "numberOne":"+966 11250 0511",
-  "numberTwo":"+966 56859 4572"
-},   
-
+  "locationFooter": {
+    "location": "Riyadh-Al Yarmuk-Imam Saud Ibn Abdulaziz Road",
+    "numberOne": "+966 11250 0511",
+    "numberTwo": "+966 56859 4572"
+  },
   "aboutCompany": {
     "header": "Information about our company",
     "contain": "Our beginning in 2019 as Redwood Contracting Est"
@@ -74,12 +72,10 @@
     "header": " Professionalism and Precision",
     "contain": "We view professionalism as our resilience factor in a dynamic business world, and we believe that attitudes and behaviors hold value for our clients."
   },
-
   "Commitment": {
     "header": " Commitment",
     "contain": "We fulfill our commitments to our clients, stakeholders, and each other, taking responsibility for our actions."
   },
-  
   "Quality": {
     "header": " Quality policy",
     "contain": "Quality is not a final result; it is an essential part of every stage of the project. A quality control process is utilized starting from the planning phase of each project, followed by supervision, inspection, testing, and documentation to ensure that work proceeds in the required manner and adherence to the work plan and regulatory standards as the project progresses."
@@ -118,55 +114,149 @@
   "Section_Services": {
     "head": "Services Provided",
     "Service1": {
-      "head":"General Construction",
-      "contain":"The company provides the execution of all necessary items for constructing the building structure and follows up with all types of finishes for the building."
+      "head": "General Construction",
+      "contain": "The company provides the execution of all necessary items for constructing the building structure and follows up with all types of finishes for the building."
     },
     "Service2": {
-      "head":"Building Improvement, Renovation, and Rehabilitation",
-      "contain":"We work on restoring buildings and supporting all civil and electromechanical works to enhance the efficiency of buildings and facilities."
-    }
-    ,
+      "head": "Building Improvement, Renovation, and Rehabilitation",
+      "contain": "We work on restoring buildings and supporting all civil and electromechanical works to enhance the efficiency of buildings and facilities."
+    },
     "Service3": {
-      "head":"Installations",
-      "contain":"We provide clients with various fire prevention and firefighting systems, including the installation of fire pumps and all security and safety system works."
-    }
-    ,
+      "head": "Installations",
+      "contain": "We provide clients with various fire prevention and firefighting systems, including the installation of fire pumps and all security and safety system works."
+    },
     "Service4": {
-      "head":"Finishing Works",
-      "contain":"We execute all types of finishes for buildings with the latest global styles while fully committing to the quality of the building finishes."
-    }
-    ,
+      "head": "Finishing Works",
+      "contain": "We execute all types of finishes for buildings with the latest global styles while fully committing to the quality of the building finishes."
+    },
     "Service5": {
-      "head":" Building Modifications or Renovations",
-      "contain":"Such as sidewalks, parking lots, and their canopies, taking into consideration the requirements of individuals with disabilities and facilitating their mobility, stemming from our social responsibility."
+      "head": " Building Modifications or Renovations",
+      "contain": "Such as sidewalks, parking lots, and their canopies, taking into consideration the requirements of individuals with disabilities and facilitating their mobility, stemming from our social responsibility."
     },
     "Service6": {
-      "head":"Electromechanical Works",
-      "contain":"Execution of all electrical and mechanical works."
+      "head": "Electromechanical Works",
+      "contain": "Execution of all electrical and mechanical works."
     }
-  
   },
   "projects_card": {
+    "project_1": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": " Finishing project for the Private Banking branch in Khabar – Saudi Investment Bank."
+    },
+    "project_2": {
+      "titleProject": "Bank Al Bilad",
+      "caption": "Implementation of screen decor in the main tower – Bank Al Bilad."
+    },
+    "project_3": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": " Modifications works for the Jubail branch – Saudi Investment Bank."
+    },
+
     "project_4": {
       "titleProject": "mosque in Bisha.",
       "caption": "Establishing a mosque in Bisha"
     },
-    "project_14": {
-      "titleProject": "Al-Diriyah tunnel",
-      "caption": "Construction works for a section of the Al-Diriyah tunnel project."
+
+    "project_5": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": " Development projects for the main entrances of the General Administration and branches of the Saudi Investment Bank."
+    },
+
+
+
+    "project_6": {
+      "titleProject": "International Medical Center in Jeddah",
+      "caption": " Finishing project for the International Medical Center in Jeddah."
+    },
+
+
+
+
+
+    "project_7": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Replacement of all security doors and emergency exits in all branches and buildings of the Saudi Investment Bank."
+    },
+
+
+
+
+
+
+    "project_8": {
+      "titleProject": "Malaz Branch - The Saudi Investment Bank",
+      "caption": " Construction of a data room and equipment transfer and preparation – Al-Malz branch – Saudi Investment Bank."
+    },
+
+
+
+
+    "project_9": {
+      "titleProject": "Rawda branch in Riyadh, The Saudi Investment Bank",
+      "caption": "Implementation of canopies and parking lots – Al-Rawda branch in Riyadh – Saudi Investment Bank."
+    },
+
+
+
+
+    "project_10": {
+      "titleProject": "Oryx Tower",
+      "caption": "Implementation of all electrical and mechanical civil defense requirements and final delivery at Orix Tower."
+    },
+    "project_11": {
+      "titleProject": "Aqiq Tower",
+      "caption": "Implementation of all electrical and mechanical civil defense requirements and final delivery at Al-Aqiq Tower."
     },
     "project_12": {
       "titleProject": "Al-Nakhil neighborhood.",
       "caption": "Implementation of a private residential villa project – Al-Nakheel neighborhood."
     },
-    
+
+
+
+
+    "project_13": {
+      "titleProject": "Projects for implementing emergency exits and entrances.",
+      "caption": "Projects for implementing emergency exits and entrances."
+    },
+    "project_14": {
+      "titleProject": "Al-Diriyah tunnel",
+      "caption": "Construction works for a section of the Al-Diriyah tunnel project."
+    },
+    "project_15": {
+      "titleProject": "Aqiq and Oryx Towers",
+      "caption": "Implementation of painting and cladding works at Al-Aqiq and Orix Towers."
+    },
+
+
+
+
+
+
+
+    "project_16": {
+      "titleProject": "Bank Al-Bilad",
+      "caption": "Renovation project for the Specialist branch – VIP section of Bank Al Bilad."
+    },
+    "project_17": {
+      "titleProject": "Bank Al-Bilad",
+      "caption": "Implementation of fences with advertising banners and lighting – Bank Al Bilad"
+    },
+
+
+
+
+
 
 
     "project_18": {
-      "titleProject": "the Khamis Mushait – Saudi Investment Bank",
+      "titleProject": " The Saudi Investment Bank",
       "caption": "Modifications project for the Khamis Mushait – Saudi Investment Bank."
     },
-    
+
+
+
+
     "project_19": {
       "titleProject": "The Saudi Investment Bank",
       "caption": " Implementation of various ATMs – Saudi Investment Bank."
@@ -176,118 +266,27 @@
 
 
 
-    
+    "project_20": {
+      "titleProject": "Projects implementing the requirements of people with special needs",
+      "caption": " Projects for implementing requirements for individuals with disabilities and modifications to building structures at various locations"
+    },
+
+
+
+
+
+
     "project_22": {
       "titleProject": "The Saudi Investment Bank",
       "caption": "Implementation of all ATMs for the Camel Festival – Saudi Investment Bank (6 ATMs within 40 days)."
     },
-
-
-
-
-"project_15": {
-      "titleProject": "Aqiq and Oryx Towers",
-      "caption": "Implementation of painting and cladding works at Al-Aqiq and Orix Towers."
-    },
-
-
-
-
-    "project_5": {
-      "titleProject": "The Saudi Investment Bank",
-      "caption": " Development projects for the main entrances of the General Administration and branches of the Saudi Investment Bank."
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    "project_1": {
-      "titleProject": "The Saudi Investment Bank",
-      "caption": "Finishing the Jeddah Private Banking Branch - The Saudi Investment Bank"
-    },
-    "project_2": {
-      "titleProject": "Bank of the country",
-      "caption": "Implementing screen decor in the main tower - Bank Al Bilad"
-    },
-    "project_3": {
-      "titleProject": "The Saudi Investment Bank",
-      "caption": "Modification work at Jubail Branch - Saudi Investment Bank"
-    },
-   
-   
-    "project_6": {
-      "titleProject": "International Medical Center in Jeddah",
-      "caption": "Finishing the International Medical Center in Jeddah"
-    },
-    "project_7": {
-      "titleProject": "The Saudi Investment Bank",
-      "caption": "Replace all security doors and emergency exits in all branches and buildings of the Saudi Investment Bank"
-    },
-    "project_8": {
-      "titleProject": "Malaz Branch - The Saudi Investment Bank",
-      "caption": "Establishing a data room, transporting and equipping equipment - Malaz Branch, The Saudi Investment Bank"
-    },
-    "project_9": {
-      "titleProject": "Rawda branch in Riyadh, The Saudi Investment Bank",
-      "caption": "Implementation of awnings and car parks - Al Rawdah Branch in Riyadh, The Saudi Investment Bank"
-    },
-    "project_10": {
-      "titleProject": "Oryx Tower",
-      "caption": "Implementing all civil defense electrical and mechanical requirements and final delivery of Oryx Tower"
-    },
-    "project_11": {
-      "titleProject": "Aqiq Tower",
-      "caption": "Implementing all civil defense electrical and mechanical requirements and final delivery of Aqiq Tower"
-    },
-  
-    "project_13": {
-      "titleProject": "Implementing stairs and emergency exits",
-      "caption": "Implementing stairs and emergency exits"
-    },
-  
-    
-    "project_16": {
-      "titleProject": "Bank Al-Bilad",
-      "caption": "Renovation project of Al-Takhassusi branch - Bank Al-Bilad"
-    },
-    "project_17": {
-      "titleProject": "Bank Al-Bilad",
-      "caption": "A project to implement fences with advertising banners and lighting - Bank Al Bilad"
-    }
-   
-   
-    ,
-    "project_20": {
-      "titleProject": "Projects implementing the requirements of people with special needs",
-      "caption": "Projects to implement the requirements of people with special needs and modifications to the built environment in various locations"
-    }
-    ,
     "project_21": {
-      "titleProject": "Bank Al-Bilad",
-      "caption": "Direct sales management implementation project for Enjaz branch in Hail - Bank Al Bilad"
+      "titleProject": "Bank Al Bilad",
+      "caption": "Implementation of direct sales management for the Injaz branch in Hail – Bank Al Bilad."
+    },
+    "project_23": {
+      "titleProject": "Al-Malz Tower Bank Al Bilad",
+      "caption": " Implementation of civil defense requirements and firefighting works at Al-Malz Tower – Bank Al Bilad."
     }
-    
   }
 }

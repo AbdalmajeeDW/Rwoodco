@@ -234,6 +234,13 @@ export default {
           titleProject: "projects_card.project_22.titleProject",
           caption: "projects_card.project_22.caption",
         },
+        {
+          id: "23",
+          img: "Al-MalzTower–BankAlBilad/1.jpeg ",
+          categorie: "Al-MalzTower–BankAlBilad",
+          titleProject: "projects_card.project_23.titleProject",
+          caption: "projects_card.project_23.caption",
+        },
       ],
       cards: [
         {
@@ -867,6 +874,21 @@ export default {
           id: "3",
           img: "ATMs _apel/3.jpeg",
           categorie: "ATMs _apel",
+        },
+        {
+          id: "1",
+          img: "Al-MalzTower–BankAlBilad/1.jpeg ",
+          categorie: "Al-MalzTower–BankAlBilad",
+        },
+        {
+          id: "2",
+          img: "Al-MalzTower–BankAlBilad/2.jpeg ",
+          categorie: "Al-MalzTower–BankAlBilad",
+        },
+        {
+          id: "3",
+          img: "Al-MalzTower–BankAlBilad/3.jpeg ",
+          categorie: "Al-MalzTower–BankAlBilad",
         },
       ],
     };
