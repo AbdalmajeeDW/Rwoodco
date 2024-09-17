@@ -89,10 +89,10 @@
           <div @click="dialog = !dialog" class="con">
             <div class="card" @click="clickCard(project)">
               <div class="details">
-                <v-icon> mdi-alert-circle-outline </v-icon>
+                <v-icon @click.stop="showCaption(i)"> mdi-alert-circle-outline </v-icon>
               </div>
               <img :src="project.img" alt="" />
-              <div class="caption">
+              <div class="caption" v-if="activeCaption === i">
                 <p>
                   {{ $t(`${project.caption}`) }}
                 </p>
@@ -283,6 +283,8 @@ export default {
       notifications: false,
       sound: true,
       widgets: false,
+      activeCaption: null,
+
       arrayFilter: null,
       cat: null,
       form: {
@@ -309,6 +311,13 @@ export default {
     };
   },
   methods: {
+    showCaption(index) {
+      if (this.activeCaption === index) {
+        this.activeCaption = null; //
+      } else {
+        this.activeCaption = index; //
+      }
+    },
     clickCard(obj) {
       this.cat = obj;
       let n = this.cards.filter((e) => e.categorie === obj.categorie);
