@@ -1,8 +1,13 @@
 <template>
   <div>
-    <v-carousel hide-delimiters cycle interval="3000" height="600">
+    <v-carousel
+      hide-delimiters
+      cycle
+      interval="3000"
+      style="margin-top: 90px; height: fit-content"
+    >
       <template v-slot:next="{ props }">
-        <div v-if="$i18n.locale == 'ar'">
+        <div v-if="$i18n.locale == 'ar'" style="">
           <v-btn v-bind="props" icon="mdi-arrow-left"></v-btn>
         </div>
         <div v-else>
@@ -10,21 +15,35 @@
         </div>
       </template>
       <template v-slot:prev="{ props }">
-        <v-btn color="green" v-bind="props">
+        <v-btn color="green" v-bind="props" style="">
           <div v-if="$i18n.locale == 'ar'">
             <v-icon>mdi-arrow-right</v-icon>
           </div>
           <div v-else><v-icon>mdi-arrow-left</v-icon></div>
         </v-btn>
       </template>
-      <v-carousel-item src="/public/carousel/caro1.jpeg"></v-carousel-item>
 
-      <v-carousel-item src="/public/carousel/caro2.jpeg"></v-carousel-item>
+      <!-- الكاروسيل مع صورتين في كل شريحة -->
+      <v-carousel-item>
+        <div class="carousel-container">
+          <img src="/public/carousel/caro1.jpeg" alt="Image 1" class="carousel-img" />
+          <img src="/public/carousel/caro2.jpeg" alt="Image 2" class="carousel-img" />
+        </div>
+      </v-carousel-item>
 
-      <v-carousel-item src="/public/carousel/caro3.jpeg"></v-carousel-item>
+      <v-carousel-item>
+        <div class="carousel-container">
+          <img src="/public/carousel/caro3.jpeg" alt="Image 3" class="carousel-img" />
+          <img src="/public/carousel/caro4.jpeg" alt="Image 4" class="carousel-img" />
+        </div>
+      </v-carousel-item>
 
-      <v-carousel-item src="/public/carousel/caro4.jpeg"></v-carousel-item>
-      <v-carousel-item src="/public/carousel/caro5.jpeg"></v-carousel-item>
+      <v-carousel-item>
+        <div class="carousel-container">
+          <img src="/public/carousel/caro5.jpeg" alt="Image 5" class="carousel-img" />
+          <img src="/public/carousel/caro1.jpeg" alt="Image 6" class="carousel-img" />
+        </div>
+      </v-carousel-item>
     </v-carousel>
     <div class="container">
       <div class="head_section">{{ $t(`aboutCompany.header`) }}</div>
@@ -344,3 +363,35 @@ export default {
   },
 };
 </script>
+<style scoped>
+.v-carousel {
+  height: 600px;
+  width: 100%; /* ارتفاع ثابت للكاروسيل */
+  overflow: hidden; /* إخفاء أي جزء من الصور يتجاوز حدود الحاوية */
+}
+
+.v-carousel-item {
+  display: flex;
+  height: 100%;
+  overflow: hidden; /* تأكد من عدم تجاوز الصور حدود الحاوية */
+}
+
+.carousel-container {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+
+.carousel-img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .carousel-img {
+    width: 100%; /*  */
+  }
+}
+</style>

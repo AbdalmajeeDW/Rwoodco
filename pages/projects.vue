@@ -17,12 +17,14 @@
       <div id="Projects"></div>
       <div class="sections1">
         <div v-for="(project, i) in projects" :key="i">
-          <div @click="dialog = !dialog" class="con">
+          <div class="con">
             <div class="card" @click="clickCard(project)">
-              <div class="details"><v-icon> mdi-alert-circle-outline </v-icon></div>
+              <div @click="showDetails = !showDetails" class="details">
+                <v-icon> mdi-alert-circle-outline </v-icon>
+              </div>
 
-              <img :src="project.img" alt="" />
-              <div class="caption">
+              <img @click="dialog = !dialog" :src="project.img" alt="" />
+              <div :class="showDetails ? 'caption-show' : 'caption'" v-if="showDetails">
                 <p>
                   {{ $t(`${project.caption}`) }}
                 </p>
@@ -74,6 +76,7 @@ export default {
       sound: true,
       widgets: false,
       arrayFilter: null,
+      showDetails: false,
       cat: null,
       projects: [
         {
