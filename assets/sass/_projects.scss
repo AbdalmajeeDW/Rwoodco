@@ -34,7 +34,7 @@
         object-fit: cover;
       }
     
-      .caption-show {
+      .caption {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -62,7 +62,8 @@
     }
 
     .card {
-      .caption-show {
+
+      .caption:hover {
         opacity: 1;
       }
     }

@@ -2,146 +2,133 @@ $base-color: #c6538c;
 $primary-color: rgb(163, 14, 34);
 $padding: 15px;
 $margin: 15px;
-$button-background:red !important;
-$button-color:red !important;
-.container{
+$button-background: red !important;
+$button-color: red !important;
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-top: 4rem;
+
+  margin-right: auto;
+}
+.title {
+  font-size: 18px;
+  color: $primary-color;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "first";
+  src: url("/public/fonts/ReadexPro-Medium.ttf");
+  font-weight: bold;
+}
+body {
+  font-family: "first";
+  background-color: #eceaeafc;
+}
+.router-link-exact-active {
+  color: $primary-color;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  text-wrap: nowrap;
+}
+.router-link-active {
+  color: $primary-color;
+}
+
+.v-icon {
+  color: $primary-color;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .container {
     padding-left: 60px;
     padding-right: 60px;
     margin-left: auto;
+    margin-right: auto;
     margin-top: 4rem;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+}
 
-    margin-right:auto ;
-}
-.title{
-  font-size: 18px;
-  color: $primary-color;
-} 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-@font-face {
-    font-family: 'first';
-    src: url('/public/fonts/ReadexPro-Medium.ttf') ;
-    font-weight: bold;
-  
-}
-body{
-    font-family: 'first' ;
-    background-color: #eceaeafc;
-}
-.router-link-exact-active{
-    color: $primary-color;
-}
-a{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    text-wrap: nowrap;
-}
-.router-link-active {
-    color: $primary-color;
-  }
-
-  .v-icon{
-    color: $primary-color;
-    cursor: pointer;
-  }
-  @media (max-width: 768px) {
-    .container{
-        padding-left:60px;
-        padding-right: 60px;
-        margin-left: auto;
-        margin-right:auto ;
-        margin-top: 4rem;
-    }
-  }
-  @media (max-width: 360px) {
-    .container{
-        padding-left:10px;
-        padding-right: 10px;
-        margin-left: auto;
-        margin-right:auto ;
-        margin-top: 4rem;
-    }
-  }
-  @media (max-width: 550px) {
-    .container{
-        padding-left:30px;
-        padding-right: 30px;
-        margin-left: auto;
-        margin-right:auto ;
-        margin-top: 4rem;
-    }
-  }
-
-.ar{
-    direction: rtl;
-    .nav{
+.ar {
+  direction: rtl;
+  .nav {
+    right: 0;
+    .sub {
+      .showSub {
         right: 0;
-        .sub {
-          .showSub {
-       
-            right: 0;
-         
-          }
-         
-        }
+      }
     }
-    .header .container .container_lang .select_lang{
-      direction: ltr;
-
-
-    }
-}
-.en{
+  }
+  .header .container .container_lang .select_lang {
     direction: ltr;
-    .nav{
+  }
+}
+.en {
+  direction: ltr;
+  .nav {
+    left: 0;
+    .sub {
+      .showSub {
         left: 0;
-        .sub {
-          .showSub {
-       
-            left: 0;
-         
-          }
-         
-        }
+      }
     }
-    .header .container .container_lang .select_lang{
-      direction: rtl;
-
-
-    }
+  }
+  .header .container .container_lang .select_lang {
+    direction: rtl;
+  }
 }
-.more_about{
-    // color: #c6538c  !important;
+.more_about {
+  // color: #c6538c  !important;
 }
- .v-btn__content { 
-    color: $primary-color !important;
-    font-family: 'first';
+.v-btn__content {
+  color: $primary-color !important;
+  font-family: "first";
+}
 
-  } 
+.v-btn:hover {
+  color: transparent;
+  cursor: pointer;
+}
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 
- .v-btn:hover{
-    color: transparent;
-    cursor: pointer;
-    
+  .routeMore {
+    color: $primary-color;
   }
-  .more{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    
-    .routeMore{
-    color:$primary-color;
-    }
-  }
-  html{
-    scroll-behavior: smooth;
-  }
-  .v-img__img--contain{
-    object-fit: fill !important;
-  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.v-img__img--contain {
+  object-fit: fill !important;
+}

@@ -17,14 +17,13 @@
       <div id="Projects"></div>
       <div class="sections1">
         <div v-for="(project, i) in projects" :key="i">
-          <div class="con">
+          <div @click="dialog = !dialog" class="con">
             <div class="card" @click="clickCard(project)">
-              <div @click="showDetails = !showDetails" class="details">
+              <div class="details">
                 <v-icon> mdi-alert-circle-outline </v-icon>
               </div>
-
-              <img @click="dialog = !dialog" :src="project.img" alt="" />
-              <div :class="showDetails ? 'caption-show' : 'caption'" v-if="showDetails">
+              <img :src="project.img" alt="" />
+              <div class="caption">
                 <p>
                   {{ $t(`${project.caption}`) }}
                 </p>

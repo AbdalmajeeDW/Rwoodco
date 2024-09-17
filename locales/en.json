@@ -29,7 +29,7 @@
     "contain": "Our beginning in 2019 as Redwood Contracting Est"
   },
   "creat": {
-    "header": "Our Beginning",
+    "header": "Our Beginning ",
     "contain": "Since our inception in 2019 as Red Wood Contracting, this organization has grown as a family of dedicated individuals striving to become a world-class construction company by exploring new markets and partnerships, investing in diversity and our communities, and creating new opportunities. The organization transitioned into a company in 2023 with the same passion but with greater goals and higher ambitions. We are committed to serving our employees, partners, and anyone aspiring to build a better future. The company has built its brand in a relatively short period and has earned the trust and satisfaction of its clients due to the efficiency and quality of its workforce, stemming from specialization and extensive experience, along with commitment and integrity in dealings."
   },
   "vision": {
@@ -148,22 +148,77 @@
   },
   "projects_card": {
     "project_4": {
-      "titleProject": "Construction of a mosque in Bisha.",
+      "titleProject": "mosque in Bisha.",
       "caption": "Establishing a mosque in Bisha"
     },
     "project_14": {
-      "titleProject": "Construction works for a section of the Al-Diriyah tunnel project.",
-      "caption": "Section of the Diriyah Tunnel Project"
+      "titleProject": "Al-Diriyah tunnel",
+      "caption": "Construction works for a section of the Al-Diriyah tunnel project."
     },
     "project_12": {
-      "titleProject": "Implementation of a private residential villa project – Al-Nakhil neighborhood.",
-      "caption": "Implementation of a private residential villa - Al-Nakhil District "
+      "titleProject": "Al-Nakhil neighborhood.",
+      "caption": "Implementation of a private residential villa project – Al-Nakheel neighborhood."
     },
     
+
+
     "project_18": {
-      "titleProject": "Modifications project for the Khamis Mushait – Saudi Investment Bank",
-      "caption": "Khamis Mushayt Branch Amendments Project - The Saudi Investment Bank"
+      "titleProject": "the Khamis Mushait – Saudi Investment Bank",
+      "caption": "Modifications project for the Khamis Mushait – Saudi Investment Bank."
     },
+    
+    "project_19": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": " Implementation of various ATMs – Saudi Investment Bank."
+    },
+
+
+
+
+
+    
+    "project_22": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": "Implementation of all ATMs for the Camel Festival – Saudi Investment Bank (6 ATMs within 40 days)."
+    },
+
+
+
+
+"project_15": {
+      "titleProject": "Aqiq and Oryx Towers",
+      "caption": "Implementation of painting and cladding works at Al-Aqiq and Orix Towers."
+    },
+
+
+
+
+    "project_5": {
+      "titleProject": "The Saudi Investment Bank",
+      "caption": " Development projects for the main entrances of the General Administration and branches of the Saudi Investment Bank."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -181,10 +236,7 @@
       "caption": "Modification work at Jubail Branch - Saudi Investment Bank"
     },
    
-    "project_5": {
-      "titleProject": "The Saudi Investment Bank",
-      "caption": "Developing the main entrances to the general administration and branches - The Saudi Investment Bank"
-    },
+   
     "project_6": {
       "titleProject": "International Medical Center in Jeddah",
       "caption": "Finishing the International Medical Center in Jeddah"
@@ -215,10 +267,7 @@
       "caption": "Implementing stairs and emergency exits"
     },
   
-    "project_15": {
-      "titleProject": "Aqiq and Oryx Towers",
-      "caption": "A project to implement painting and cladding works in Al Aqiq and Oryx Towers"
-    },
+    
     "project_16": {
       "titleProject": "Bank Al-Bilad",
       "caption": "Renovation project of Al-Takhassusi branch - Bank Al-Bilad"
@@ -228,11 +277,7 @@
       "caption": "A project to implement fences with advertising banners and lighting - Bank Al Bilad"
     }
    
-    ,
-    "project_19": {
-      "titleProject": "The Saudi Investment Bank",
-      "caption": "Various ATM implementation projects - The Saudi Investment Bank"
-    }
+   
     ,
     "project_20": {
       "titleProject": "Projects implementing the requirements of people with special needs",
@@ -243,10 +288,6 @@
       "titleProject": "Bank Al-Bilad",
       "caption": "Direct sales management implementation project for Enjaz branch in Hail - Bank Al Bilad"
     }
-    ,
-    "project_22": {
-      "titleProject": " Implementation of various ATMs – Saudi Investment Bank.",
-      "caption": "A project to implement all ATMs at the apel Festival - The Saudi Investment Bank (6 ATMs in a period of 40 days)"
-    }
+    
   }
 }

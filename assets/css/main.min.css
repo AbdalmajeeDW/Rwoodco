@@ -178,6 +178,7 @@ html {
   padding-top: 5px;
   z-index: 51;
   opacity: 0;
+  width: 100%;
   height: 30px;
 }
 .header .container .links .sub .showSub li a {
@@ -227,17 +228,17 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  gap: 2px;
+  gap: 4px;
   cursor: pointer;
   transition-timing-function: linear;
-  width: 77px;
+  width: 82px;
 }
 .header .container .container_lang .select_lang {
   display: flex;
   flex-direction: column;
   position: absolute;
   gap: 10px;
-  width: 74px;
+  width: 82px;
   align-items: flex-end;
   margin-top: 5px;
   background-color: rgba(255, 255, 255, 0.6);
@@ -253,6 +254,7 @@ html {
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: 4px;
   font-size: 13px;
 }
 .header .container .con_Icon {
@@ -983,7 +985,7 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.container .sections1 .card .caption-show {
+.container .sections1 .card .caption {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1002,14 +1004,14 @@ html {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-.container .sections1 .card .caption-show p {
+.container .sections1 .card .caption p {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 5px;
 }
-.container .sections1 .card .caption-show {
+.container .sections1 .card .caption:hover {
   opacity: 1;
 }
 
