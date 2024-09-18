@@ -2,7 +2,9 @@
   <v-carousel
     hide-delimiters
     hide-delimiter-background
-    style="margin-top: 90px; height: fit-content"
+    interval="3000"
+    cycle
+    style="margin-top: 90px"
   >
     <template v-slot:next="{ props }">
       <div v-if="$i18n.locale == 'ar'" style="">
@@ -21,7 +23,6 @@
       </v-btn>
     </template>
 
-    <!-- الكاروسيل مع صورتين في كل شريحة -->
     <v-carousel-item>
       <div class="carousel-container">
         <img src="/public/carousel/2.jpeg" alt="Image 1" class="carousel-img" />
@@ -60,7 +61,7 @@ export default {
 .v-carousel-item {
   display: flex;
   height: 100%;
-  overflow: hidden; /* تأكد من عدم تجاوز الصور حدود الحاوية */
+  overflow: hidden;
 }
 
 .carousel-container {
@@ -78,7 +79,7 @@ export default {
 
 @media (max-width: 900px) {
   .carousel-img {
-    width: 100%; /*  */
+    width: 100%;
   }
 }
 </style>
