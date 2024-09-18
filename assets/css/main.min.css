@@ -131,7 +131,7 @@ html {
 .flat {
   position: fixed;
   top: 50%;
-  z-index: 110;
+  z-index: 56;
   height: -moz-fit-content;
   height: fit-content;
   background: #a30e22;
@@ -909,7 +909,7 @@ html {
     background-color: white;
     box-shadow: 1px 1px 6px -3px black;
     position: relative;
-    z-index: 500;
+    z-index: 59;
   }
   .footer .container {
     gap: 30px;
