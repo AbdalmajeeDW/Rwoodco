@@ -1,50 +1,9 @@
 <template>
   <div>
-    <v-carousel
-      hide-delimiters
-      cycle
-      interval="3000"
-      style="margin-top: 90px; height: fit-content"
-    >
-      <template v-slot:next="{ props }">
-        <div v-if="$i18n.locale == 'ar'" style="">
-          <v-btn v-bind="props" icon="mdi-arrow-left"></v-btn>
-        </div>
-        <div v-else>
-          <v-btn v-bind="props" icon="mdi-arrow-right"></v-btn>
-        </div>
-      </template>
-      <template v-slot:prev="{ props }">
-        <v-btn color="green" v-bind="props" style="">
-          <div v-if="$i18n.locale == 'ar'">
-            <v-icon>mdi-arrow-right</v-icon>
-          </div>
-          <div v-else><v-icon>mdi-arrow-left</v-icon></div>
-        </v-btn>
-      </template>
+    <div>
+      <CarouselHero />
+    </div>
 
-      <!-- الكاروسيل مع صورتين في كل شريحة -->
-      <v-carousel-item>
-        <div class="carousel-container">
-          <img src="/public/carousel/caro1.jpeg" alt="Image 1" class="carousel-img" />
-          <img src="/public/carousel/caro2.jpeg" alt="Image 2" class="carousel-img" />
-        </div>
-      </v-carousel-item>
-
-      <v-carousel-item>
-        <div class="carousel-container">
-          <img src="/public/carousel/caro3.jpeg" alt="Image 3" class="carousel-img" />
-          <img src="/public/carousel/caro4.jpeg" alt="Image 4" class="carousel-img" />
-        </div>
-      </v-carousel-item>
-
-      <v-carousel-item>
-        <div class="carousel-container">
-          <img src="/public/carousel/caro5.jpeg" alt="Image 5" class="carousel-img" />
-          <img src="/public/carousel/caro1.jpeg" alt="Image 6" class="carousel-img" />
-        </div>
-      </v-carousel-item>
-    </v-carousel>
     <div class="container">
       <div class="head_section">{{ $t(`aboutCompany.header`) }}</div>
       <div class="contian_section">
@@ -107,12 +66,7 @@
         >
       </div>
     </div>
-    <v-dialog
-      v-model="dialog"
-      transition="dialog-bottom-transition"
-      fullscreen
-      :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
-    >
+    <v-dialog v-model="dialog" fullscreen :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
       <v-toolbar>
         <v-btn icon="mdi-close" @click="dialog = false"></v-btn>
 
@@ -217,12 +171,7 @@
         >
       </div>
     </div>
-    <v-dialog
-      v-model="dialog1"
-      transition="dialog-bottom-transition"
-      fullscreen
-      :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
-    >
+    <v-dialog v-model="dialog1" fullscreen :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
       <v-toolbar>
         <v-btn icon="mdi-close" @click="dialog1 = false"></v-btn>
 
@@ -252,7 +201,6 @@
         </div>
       </v-card>
     </v-dialog>
-    <!--  -->
     <div class="container">
       <div class="head_section">{{ $t(`Section_clients.head`) }}</div>
 
@@ -274,7 +222,6 @@
 <script>
 import cards from "~/common/cards";
 import project_array from "~/common/projects";
-
 export default {
   data() {
     return {
@@ -352,55 +299,35 @@ export default {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
+            // هنا نتأكد من أن العنصر قد ظهر بالفعل في العرض
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
           } else {
-            entry.target.classList.remove("visible");
+            // إعادة إخفاء العنصر عند الخروج من العرض
+            entry.target.style.opacity = "0";
+            entry.target.style.transform = "translateY(20px)";
           }
         });
       },
       {
-        threshold: 0.1,
+        threshold: 0.1, // يمكن تعديل النسبة حسب الحاجة
       }
     );
 
     cards.forEach((card) => {
+      // ضبط الأنماط الافتراضية قبل مراقبة العنصر
+      card.style.opacity = "0";
+      card.style.transform = "translateY(20px)";
+      card.style.transition = "opacity 0.6s ease-out, transform 0.6s ease-out";
       observer.observe(card);
     });
-    projects.forEach((card) => {
-      observer.observe(card);
+
+    projects.forEach((project) => {
+      project.style.opacity = "0";
+      project.style.transform = "translateY(20px)";
+      project.style.transition = "opacity 0.6s ease-out, transform 0.6s ease-out";
+      observer.observe(project);
     });
   },
 };
 </script>
-<style scoped>
-.v-carousel {
-  height: 600px;
-  width: 100%; /* ارتفاع ثابت للكاروسيل */
-  overflow: hidden; /* إخفاء أي جزء من الصور يتجاوز حدود الحاوية */
-}
-
-.v-carousel-item {
-  display: flex;
-  height: 100%;
-  overflow: hidden; /* تأكد من عدم تجاوز الصور حدود الحاوية */
-}
-
-.carousel-container {
-  display: flex;
-  width: 100%;
-  gap: 5px;
-}
-
-.carousel-img {
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-@media (max-width: 900px) {
-  .carousel-img {
-    width: 100%; /*  */
-  }
-}
-</style>

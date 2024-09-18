@@ -2,15 +2,17 @@
   <div>
     <div class="about_header">
       <div class="img">
-        <p class="head">{{ $t(`head_about.head`) }}</p>
-        <p class="contain">
-          {{ $t(`head_about.contain`) }}
-        </p>
-        <v-btn class="more_head"
-          ><NuxtLink to="#about" class="routeMore2">{{
-            $t(`about.btnMore`)
-          }}</NuxtLink></v-btn
-        >
+        <div class="container">
+          <p class="head">{{ $t(`head_about.head`) }}</p>
+          <p class="contain">
+            {{ $t(`head_about.contain`) }}
+          </p>
+          <v-btn class="more_head"
+            ><NuxtLink to="#about" class="routeMore2">{{
+              $t(`about.btnMore`)
+            }}</NuxtLink></v-btn
+          >
+        </div>
       </div>
     </div>
     <div id="about"></div>
@@ -92,27 +94,25 @@
 </template>
 <script>
 export default {
-  mounted() {
-    const cards = document.querySelectorAll(".v-card");
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          } else {
-            entry.target.classList.remove("visible");
-          }
-        });
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    cards.forEach((card) => {
-      observer.observe(card);
-    });
-  },
+  // mounted() {
+  //   const cards = document.querySelectorAll(".v-card");
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           entry.target.classList.add("visible");
+  //         } else {
+  //           entry.target.classList.remove("visible");
+  //         }
+  //       });
+  //     },
+  //     {
+  //       threshold: 0.1,
+  //     }
+  //   );
+  //   cards.forEach((card) => {
+  //     observer.observe(card);
+  //   });
+  // },
 };
 </script>

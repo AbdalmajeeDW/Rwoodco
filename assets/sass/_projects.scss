@@ -50,7 +50,7 @@
         background-color: rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(2px);
         opacity: 1;
-        transition: opacity 0.5s ease-in-out;
+        // transition: opacity 0.5s ease-in-out;
         p {
           display: flex;
           justify-content: center;
@@ -169,7 +169,7 @@
   gap: 1rem;
   justify-content: space-around;
   .con {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(50px);
     transition: all 1s ease-out;
 

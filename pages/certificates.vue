@@ -2,15 +2,17 @@
   <div>
     <div class="about_header">
       <div class="img">
-        <p class="head">{{ $t(`Certificates.certificates`) }}</p>
-        <p class="contain">
-          {{ $t(`head_about.contain`) }}
-        </p>
-        <v-btn class="more_head"
-          ><NuxtLink to="#certificates" class="routeMore2">{{
-            $t(`head_certificates.btn_Cer`)
-          }}</NuxtLink></v-btn
-        >
+        <div class="container">
+          <p class="head">{{ $t(`Certificates.certificates`) }}</p>
+          <p class="contain">
+            {{ $t(`head_about.contain`) }}
+          </p>
+          <v-btn class="more_head"
+            ><NuxtLink to="#certificates" class="routeMore2">{{
+              $t(`head_certificates.btn_Cer`)
+            }}</NuxtLink></v-btn
+          >
+        </div>
       </div>
     </div>
     <div class="container" id="certificates">
@@ -29,7 +31,7 @@
     </div>
     <v-dialog
       v-model="dialog"
-      transition="dialog-bottom-transition"
+       
       fullscreen
       :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
     >

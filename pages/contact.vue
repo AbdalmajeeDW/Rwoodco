@@ -7,7 +7,9 @@
             <div class="map">
               <v-icon>mdi-map-marker-circle</v-icon>
 
-              <p style="line-height: 1.1">{{ $t(`locationFooter.location`) }}</p>
+              <p style="line-height: 1.1">
+                {{ $t(`locationFooter.location`) }}
+              </p>
             </div>
           </li>
           <li>
@@ -22,7 +24,13 @@
             </a>
           </li>
           <li>
-            <div><v-icon>mdi-cellphone</v-icon>{{ $t(`locationFooter.numberTwo`) }}</div>
+            <a href="https://wa.me/+966568594572">
+              <div>
+                <v-icon>mdi-whatsapp</v-icon>
+
+                {{ $t(`locationFooter.numberTwo`) }}
+              </div>
+            </a>
           </li>
         </ul>
       </div>

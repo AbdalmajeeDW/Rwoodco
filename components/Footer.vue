@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="services2">
-          <div class="title">{{ $t(`links.services`) }}</div>
+          <div class="title">{{ $t(`Section_Services.head`) }}</div>
 
           <p>{{ $t(`Section_Services.Service1.head`) }}</p>
           <p>{{ $t(`Section_Services.Service2.head`) }}</p>
@@ -39,7 +39,9 @@
               <div class="map">
                 <v-icon>mdi-map-marker-circle</v-icon>
 
-                <p style="line-height: 1.1">{{ $t(`locationFooter.location`) }}</p>
+                <p style="line-height: 1.1">
+                  {{ $t(`locationFooter.location`) }}
+                </p>
               </div>
             </li>
             <li>
@@ -54,9 +56,11 @@
               </a>
             </li>
             <li>
-              <div>
-                <v-icon>mdi-cellphone</v-icon>{{ $t(`locationFooter.numberTwo`) }}
-              </div>
+              <NuxtLink href="https://wa.me/+966568594572">
+                <div>
+                  <v-icon>mdi-whatsapp</v-icon>{{ $t(`locationFooter.numberTwo`) }}
+                </div>
+              </NuxtLink>
             </li>
           </ul>
         </div>

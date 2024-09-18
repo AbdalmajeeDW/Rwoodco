@@ -8,6 +8,9 @@
   padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
+  position: relative
+  ;
+  z-index: 60;
 
   .copyrightImg {
     width: 55px;
@@ -26,7 +29,8 @@
 .footer {
   background-color: white;
   box-shadow: 1px 1px 6px -3px black;
-
+position: relative;
+z-index: 500  ;
   .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)) ;
@@ -128,6 +132,8 @@
     margin-left: auto;
 font-size: 14px;
     margin-right: auto;
+    position: relative;
+    z-index: 131;
 
     .copyrightImg {
       width: 55px;
@@ -144,6 +150,8 @@ font-size: 14px;
   .footer {
     background-color: white;
     box-shadow: 1px 1px 6px -3px black;
+    position: relative;
+z-index: 500  ;
     .container {
       gap: 30px;
       display: grid;

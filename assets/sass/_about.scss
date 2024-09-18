@@ -104,7 +104,6 @@
 }
 @media (max-width: 768px) {
   .container {
-   
     .head_section {
       border-bottom: 2px solid rgb(163, 14, 34);
       border-top: 2px solid rgb(163, 14, 34);
@@ -224,7 +223,6 @@
 }
 @media (max-width: 600px) {
   .container {
-   
     .head_section {
       border-bottom: 2px solid rgb(163, 14, 34);
       border-top: 2px solid rgb(163, 14, 34);
@@ -346,6 +344,8 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  position: relative;
+  z-index: 59;
   .img {
     background-image: url(/public/77.jpg);
     width: 100%;
@@ -356,13 +356,11 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    gap: 30px;
+    gap: 70px;
 
     .head {
       display: flex;
-      justify-content: left;
-      margin-right: 30px;
-      margin-left: 30px;
+
       align-items: center;
 
       color: $primary-color;
@@ -371,20 +369,20 @@
     .contain {
       display: flex;
       justify-content: center;
-      margin-right: 30px;
-      margin-left: 30px;
+
       align-items: center;
       color: rgb(80, 79, 79);
       font-size: 15px;
       line-height: 2;
+      margin-top: 10px;
     }
     .more_head {
       display: flex;
       justify-content: right;
-      margin-right: 30px;
-      margin-left: 30px;
+
       align-items: center;
       font-size: 15px;
+      margin-top: 10px;
     }
   }
 }
@@ -405,8 +403,7 @@
     }
   }
 }
-.head_section{
-  
+.head_section {
 }
 
 .sections {
@@ -415,28 +412,25 @@
   gap: 1rem;
   justify-content: space-around;
   .v-card {
-    opacity: 0;
-    transform: translateY(50px); 
-    transition: all 1s ease-out; 
-
-    &.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  100% {
     opacity: 1;
-    transform: translateY(0);
+    // transform: translateY(50px);
+    // transition: all 1s ease-out;
+
+  
   }
 }
-.img_dialog{
+
+// @keyframes fadeInUp {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(50px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+.img_dialog {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 40px;

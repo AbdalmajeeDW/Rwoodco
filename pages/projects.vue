@@ -2,15 +2,17 @@
   <div>
     <div class="about_header">
       <div class="img">
-        <p class="head">{{ $t(`head_project.head`) }}</p>
-        <p class="contain">
-          {{ $t(`head_about.contain`) }}
-        </p>
-        <v-btn class="more_head"
-          ><NuxtLink to="#Projects" class="routeMore2">{{
-            $t(`head_project.btn_pro`)
-          }}</NuxtLink></v-btn
-        >
+        <div class="container">
+          <p class="head">{{ $t(`head_project.head`) }}</p>
+          <p class="contain">
+            {{ $t(`head_about.contain`) }}
+          </p>
+          <v-btn class="more_head"
+            ><NuxtLink to="#Projects" class="routeMore2">{{
+              $t(`head_project.btn_pro`)
+            }}</NuxtLink></v-btn
+          >
+        </div>
       </div>
     </div>
     <div class="container">
@@ -33,12 +35,7 @@
         </div>
       </div>
     </div>
-    <v-dialog
-      v-model="dialog"
-      transition="dialog-bottom-transition"
-      fullscreen
-      :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
-    >
+    <v-dialog v-model="dialog" fullscreen :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
       <v-toolbar>
         <v-btn icon="mdi-close" @click="dialog = false"></v-btn>
 
