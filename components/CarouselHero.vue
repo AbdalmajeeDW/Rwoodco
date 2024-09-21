@@ -2,6 +2,47 @@
   <v-carousel interval="6000" cycle hide-delimiter-background style="margin-top: 90px">
     <v-carousel-item>
       <div class="carousel-container">
+        <img src="/public/carousel/1010.jpeg" class="img" alt="Image 1" />
+        <img
+          v-if="isWideScreen"
+          src="/public/carousel/1011.jpeg"
+          class="img"
+          alt="Image 2"
+        />
+      </div>
+    </v-carousel-item>
+    <v-carousel-item v-if="isWideScreen2">
+      <div class="carousel-container">
+        <img
+          src="/public/carousel/1011.jpeg"
+          class="img"
+          alt="Image 2"
+        />
+      </div>
+    </v-carousel-item>
+    <v-carousel-item>
+      <div class="carousel-container">
+        <img src="/public/carousel/999.jpeg" class="img" alt="Image 1" />
+        <img
+          v-if="isWideScreen"
+          src="/public/carousel/9999.jpeg"
+          class="img"
+          alt="Image 2"
+        />
+      </div>
+    </v-carousel-item>
+    <v-carousel-item v-if="isWideScreen2">
+      <div class="carousel-container">
+        <img
+        
+          src="/public/carousel/9999.jpeg"
+          class="img"
+          alt="Image 2"
+        />
+      </div>
+    </v-carousel-item>
+    <v-carousel-item>
+      <div class="carousel-container">
         <img src="/public/carousel/12.jpeg" class="img" alt="Image 1" />
         <img
           v-if="isWideScreen"
